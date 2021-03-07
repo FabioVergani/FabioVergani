@@ -1,4 +1,9 @@
-<link href="style.css" rel="stylesheet"></link>
+(setq markdown-xhtml-header-content
+"<style>
+    * {
+    border: 1px solid black; padding:10px;
+    }
+</style>")
 <span align="center">
     <header>
         <h1>
