@@ -1,13 +1,9 @@
-<header>
-  <h2>
-    Well, hello! 👋🏻 
-    <img align="right" src="https://gpvc.arturio.dev/dmoyadev">
-    ![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sviluppatorefrontend/)
-  </h2>
-  <p>
-  I like art, design and typography ...and of course ❤️ Js.
-  </p>
-</header>
+<h1 align="center">Hi 👋, I'm Fabio Vergani</h1>
+<h3 align="center">I like art, design and typography ...and of course ❤️ Js.</h3>
+
+<img align="right" src="https://gpvc.arturio.dev/FabioVergani">
+<img align="right" src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sviluppatorefrontend/">
+    
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=FabioVergani&show_icons=true)
 
