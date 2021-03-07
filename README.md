@@ -56,7 +56,11 @@
   </tr>
 </table>
 
-
+<span align="center">
+    <b>#javascript</b>&ensp;
+    <b>#learningisfun</b>&ensp;
+    <b>#frontend</b>
+</span>
 
 
 
