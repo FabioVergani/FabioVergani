@@ -12,6 +12,49 @@
     </p> 
 </span>   
 
+<table
+   <tr>
+      <td valign="top" width="33%">
+        <pre>
+            /* eslint-disable */
+            /* prettier-ignore */
+        </pre>
+      </td>
+      <td valign="top" width="33%">
+        <pre>
+            //.prettierrc
+            {
+              "tabWidth": 2,
+              "useTabs": true,
+              "printWidth": 999,
+              "semi": true,
+              "singleQuote": true,
+              "trailingComma": "all",
+              "bracketSpacing": true,
+              "arrowParens":"avoid"
+            }
+        </pre>
+      </td>
+      <td valign="top" width="34%">
+        <pre>
+            // edit terser options
+            {
+                compress: {
+                    global_defs: {
+                        DEBUG: true
+                    }
+                },
+                mangle: false,
+                output: {
+                    beautify: true
+                },
+                keep_classnames: true,
+                keep_fnames: true
+            }
+        </pre>
+      </td>
+  </tr>
+</table>
 
 <!--
 
