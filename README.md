@@ -15,43 +15,43 @@
 <table
    <tr>
       <td valign="top" width="33%">
-        <code>
-             &#9;/* eslint-disable */<br>
-             &#9;/* prettier-ignore */
-        </code>
+<pre>
+/* eslint-disable */
+/* prettier-ignore */
+</pre>
       </td>
-      <td valign="top" width="33%">
-        <code>
-            //.prettierrc<br>
-            {
-               &#9;"tabWidth": 2,<br>
-               &#9;"useTabs": true,<br>
-               &#9;"printWidth": 999,<br>
-               &#9;"semi": true,<br>
-               &#9;"singleQuote": true,<br>
-               &#9;"trailingComma": "all",<br>
-               &#9;"bracketSpacing": true,<br>
-               &#9;"arrowParens":"avoid"<br>
-            }
-        </code>
+      <td valign="top" width="32%">
+<pre>
+//.prettierrc
+{
+    "tabWidth": 2,
+    "useTabs": true,
+    "printWidth": 999,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "arrowParens":"avoid"
+}
+</pre>
       </td>
       <td valign="top" width="34%">
-        <code>
-            // edit terser options<br>
-            {
-                 &#9;compress: {<br>
-                    &#9; &#9;global_defs: {<br>
-                    &#9; &#9;DEBUG: true<br>
-                    }<br>
-                 &#9;},<br>
-                 &#9;mangle: false,<br>
-                 &#9;output: {<br>
-                     &#9; &#9;beautify: true<br>
-                 &#9;},<br>
-                 &#9;keep_classnames: true,<br>
-                 &#9;keep_fnames: true<br>
-            }
-        </code>
+<pre>
+// edit terser options
+{
+    compress: {
+        global_defs: {
+            DEBUG: true
+        }
+    },
+    mangle: false,
+    output: {
+        beautify: true
+    },
+    keep_classnames: true,
+    keep_fnames: true
+}
+</pre>
       </td>
   </tr>
 </table>
