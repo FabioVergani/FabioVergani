@@ -56,13 +56,15 @@
   </tr>
 </table>
 
-<style>
+&lt;style&gt;
+
+
 body:not(.logged-in){
 	.js-pinned-items-reorder-container {
     		display: none;
 	}
 }
-</style>
+&lt;/style&gt;
 
 
 
