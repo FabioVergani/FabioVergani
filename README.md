@@ -56,6 +56,17 @@
   </tr>
 </table>
 
+<style>
+body:not(.logged-in){
+	.js-pinned-items-reorder-container {
+    		display: none;
+	}
+}
+</style>
+
+
+
+
 <!--
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=FabioVergani&show_icons=true)
