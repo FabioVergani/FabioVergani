@@ -1,4 +1,4 @@
-<span style="text-align:center;">
+<span align="center">
     <header>
         <h1>
             Hi 👋, I'm Fabio Vergani
@@ -12,12 +12,11 @@
     </p> 
 </span>   
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=FabioVergani&show_icons=true)
-
-
-
 
 <!--
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=FabioVergani&show_icons=true)
+
 #### Some things you may find interesting in my repos:
 <table width="90%>
 <tr>
