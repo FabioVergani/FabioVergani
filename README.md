@@ -12,7 +12,7 @@
     </p> 
 </span>   
 
-<table
+<table align="center">
    <tr>
       <td valign="top" width="33%">
 <pre>
