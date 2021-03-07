@@ -59,7 +59,8 @@
 <div align="center">
     <b>#javascript</b>&ensp;
     <b>#learningisfun</b>&ensp;
-    <b>#frontend</b>
+    <b>#frontend<b>&ensp;
+	<b>#senior<b>
 </div>
 
 
