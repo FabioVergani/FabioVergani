@@ -1,10 +1,17 @@
-<h2>Well, hello! 👋🏻 <img align="right" src="https://gpvc.arturio.dev/dmoyadev"></h2>
-I like art, design and typography ...and of course ❤️ Js.
-
+<header>
+  <h2>
+    Well, hello! 👋🏻 
+    <img align="right" src="https://gpvc.arturio.dev/dmoyadev">
+    ![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sviluppatorefrontend/)
+  </h2>
+  <p>
+  I like art, design and typography ...and of course ❤️ Js.
+  </p>
+</header>
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=FabioVergani&show_icons=true)
 
-![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sviluppatorefrontend/)
+
 
 
 <!--
