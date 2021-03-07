@@ -1,3 +1,4 @@
+<link href="style.css" rel="stylesheet"></link>
 <span align="center">
     <header>
         <h1>
@@ -56,15 +57,7 @@
   </tr>
 </table>
 
-&lt;style&gt;
 
-
-body:not(.logged-in){
-	.js-pinned-items-reorder-container {
-    		display: none;
-	}
-}
-&lt;/style&gt;
 
 
 
