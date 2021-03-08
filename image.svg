@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<style>
+@keyframes ja {
+    to {
+        --ja: 1 }
+}
+
+@keyframes js {
+    0% {
+        --js: 1 }
+}
+
+.root {
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    transform-style: preserve-3d
+}
+
+.a3d {
+    top: 50%;
+    left: 50%;
+    transform: rotateX(-13deg);
+    perspective: 35em;
+    position: absolute;
+}
+
+.s3d {
+    --f:1;
+	transform: rotatey(calc(var(--ja)*1turn)) translatez(var(--d, 25vmin)) rotatey(calc(var(--js)*3turn)) scale3d(var(--f),var(--f),var(--f));
+    animation: ja 5s linear calc(var(--idx)*8s) infinite,js 5s linear infinite;
+}
+
+.s3d:after {
+    content: "";
+    position: absolute;
+    margin: calc(-1.1*var(--rc));
+    padding: var(--rc);
+    border-radius: 50%;
+    transform: translatey(calc(var(--rc) + .2em)) rotatex(90deg);
+    background: radial-gradient(rgba(153,153,153,.35),transparent 70%);
+}
+
+.s4hedron {
+    --idx: 0;
+	--ri: 3vmin;
+	--rc: 9vmin;
+	color: #58a9ff;
+    position: absolute;
+}
+
+.s4hedron>div {
+    --ax: 35deg;
+	--o: 0;
+	--sgn-o: calc(1 - 2*var(--o));
+	--rcf: 8vmin;
+	--pts: 50% 0%, 93% 75%, 6% 75%;
+	--j: calc(var(--ja) + var(--js) + var(--jf));
+	--int: calc(var(--j) - var(--ja));
+	--mod-j: calc(var(--j) - var(--int));
+	--abs: Max(calc(var(--mod-j) - .5), calc(.5 - var(--mod-j)));
+	--ay: calc(var(--jf)*1turn);
+	--az: .5turn;
+	margin: calc(-1*var(--rcf));
+    padding: var(--rcf);
+    transform: rotatey(var(--ay)) rotatex(calc(var(--sgn-o)*var(--ax))) translatez(var(--ri)) rotatez(calc(var(--r)*var(--az)));
+    background: currentcolor;
+    clip-path: polygon(var(--pts));
+    filter: brightness(calc(.25 + 1.5*var(--abs) - .5*var(--o)));
+    transition: filter .25s;
+    position: absolute
+}
+
+.s4hedron>div:nth-child(1){--r:1; --jf:0 }
+.s4hedron>div:nth-child(2){--r:0; --jf:0.25; --o:1}
+.s4hedron>div:nth-child(3){--r:1; --jf:0.5 }
+.s4hedron>div:nth-child(4){--r:0; --jf:0.75; --o:1}
+
+		</style>
+		<div xmlns="http://www.w3.org/1999/xhtml" class="root">
+		<div class="a3d">
+			<div class="s3d s4hedron">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+		<script>
+// <![CDATA[
+const f = (a,b) =>{
+	CSS.registerProperty({
+		name: '--'+a,
+		syntax: b,
+		initialValue: 0,
+		inherits: true
+	})
+};
+
+for(const e of [
+'mod-j',
+'abs',
+'ja',
+'js',
+'jf',
+'j'
+]){
+	f(e,'<number>');
+};
+
+f('int','<integer>');
+// ]]>
+			</script>
+		</div>
+	</foreignObject>
+</svg>
