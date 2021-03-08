@@ -8,7 +8,9 @@
         </h3>
     </header>
     <p>
-        <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sviluppatorefrontend/">
+        <a title="Fabio Vergani" href="https://www.linkedin.com/in/sviluppatorefrontend/">
+            <img alt="linkedIn" src="./linkedIn.svg">
+        </a>
     </p> 
 </span>   
 
