@@ -9,7 +9,7 @@
     </header>
     <p>
         <a title="Fabio Vergani" href="https://www.linkedin.com/in/sviluppatorefrontend/">
-            <img width="72" alt="linkedIn" src="./linkedIn.svg">
+            <img width="72" alt="linkedIn" src="./linkedIn.svg?v1">
         </a>
     </p> 
 </span>   
