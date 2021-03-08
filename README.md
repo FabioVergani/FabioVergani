@@ -62,3 +62,5 @@
     <b>#frontend</b>&ensp;
     <b>#senior</b>
 </div>
+
+![](./image.svg)
