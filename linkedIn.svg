@@ -8,7 +8,7 @@
   </defs>
   <rect width="75" height="20" fill="url(#a)" rx="3"/>
   <path d="M16 15h-1.5v-3.25c0-.77-.01-1.77-1.08-1.77-1.08 0-1.24.84-1.24 1.71V15H10.1V8.25h2v.91h.02a2.2 2.2 0 011.97-1.08c2.1 0 2.49 1.38 2.49 3.18v3.67zM8.1 7.33a1.2 1.2 0 01-1.2-1.2 1.2 1.2 0 111.2 1.2zm1.04 7.6H7.07V8.25h2.08v6.68zM17.96 3H6.04A1.02 1.02 0 005 4v12a1.02 1.02 0 001.03 1h11.93c.57 0 1.04-.45 1.04-1V4c0-.55-.47-1-1.04-1z"/>
-  <text stroke="#1d3c6a" paint-order="stroke" style="user-select:none;font:10px/10px Verdana,sans-serif;text-shadow:0 0 5px #001e4a" transform="translate(26 14)">
+  <text stroke="#1d3c6a" paint-order="stroke" style="user-select:none;font:10px/10px Verdana,sans-serif;text-shadow:0 0 3px #001e4a" transform="translate(26 14)">
     LinkedIn
   </text>
 </svg>
