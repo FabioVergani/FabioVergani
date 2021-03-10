@@ -11,12 +11,10 @@
         <a title="#sviluppatorefrontend" href="https://www.linkedin.com/in/sviluppatorefrontend/">
             <img width="72" alt="linkedIn" src="./linkedIn.svg">
         </a>
-    </p> 
-</span>   
-
-<table align="center">
-   <tr>
-      <td valign="top" width="33%">
+    </p>
+    <table>
+       <tr>
+          <td valign="top" width="33%">
 <pre>
 /* eslint-disable */
 /* prettier-ignore */
@@ -54,15 +52,20 @@
     keep_fnames: true
 }
 </pre>
-      </td>
-  </tr>
-</table>
-
-<div align="center">
-    <b>#javascript</b>&ensp;
-    <b>#learningisfun</b>&ensp;
-    <b>#frontend</b>&ensp;
-    <b>#senior</b>
-</div>
+          </td>
+      </tr>
+    </table>
+    <div>
+        <b>#javascript</b>&ensp;
+        <b>#learningisfun</b>&ensp;
+        <b>#frontend</b>&ensp;
+        <b>#senior</b>
+        <p>
+            <a title="MDN Web Docs" href="https://developer.mozilla.org/en-US/search?q=FabioVergani">
+                <img width="112" alt="linkedIn" src="./javascript.svg">
+            </a>
+        </p> 
+    </div>
+</span> 
 
 ![](./image.svg)
