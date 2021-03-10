@@ -1,4 +1,4 @@
-<span align="center">
+<div align="center">
     <header>
         <h1>
             Hi 👋, I'm Fabio Vergani
@@ -61,11 +61,11 @@
         <b>#frontend</b>&ensp;
         <b>#senior</b>
         <p>
-            <a title="MDN Web Docs" href="https://developer.mozilla.org/en-US/search?q=FabioVergani">
-                <img width="112" alt="linkedIn" src="./javascript.svg">
+            <a href="https://developer.mozilla.org/en-US/search?q=FabioVergani">
+                <img width="84" alt="MDN" src="./javascript.svg">
             </a>
         </p> 
     </div>
-</span> 
+</div> 
 
 ![](./image.svg)
