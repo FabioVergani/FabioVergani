@@ -1,14 +1,14 @@
 <div align="center">
     <header>
         <h1>
-            Hi 👋, I'm Fabio Vergani
+            Hi 👋, I'm Fabio
         </h1>
         <h3>
             I like art, design and typography ...and of course ❤️ Js.
         </h3>
     </header>
     <p>
-        <a href="https://developer.mozilla.org/en-US/search?q=FabioVergani">
+        <a targer="_blank" href="https://developer.mozilla.org/en-US/search?q=FabioVergani">
             <img width="90" alt="MDN" src="./JavaScript.svg">
         </a>
     </p>
