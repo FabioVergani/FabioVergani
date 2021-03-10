@@ -8,7 +8,7 @@
         </h3>
     </header>
     <p>
-        <a targer="_blank" href="https://developer.mozilla.org/en-US/search?q=FabioVergani">
+        <a target="_blank" href="https://developer.mozilla.org/en-US/search?q=FabioVergani">
             <img width="90" alt="MDN" src="./JavaScript.svg">
         </a>
     </p>
