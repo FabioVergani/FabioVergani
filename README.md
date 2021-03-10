@@ -11,6 +11,7 @@
         <a target="_blank" href="https://developer.mozilla.org/en-US/search?q=FabioVergani">
             <img width="90" alt="MDN" src="./JavaScript.svg">
         </a>
+        [go](http://stackoverflow.com){:target="_blank"}.
     </p>
     <table>
        <tr>
