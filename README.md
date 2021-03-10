@@ -8,10 +8,9 @@
         </h3>
     </header>
     <p>
-        <a target="_blank" href="https://developer.mozilla.org/en-US/search?q=FabioVergani">
+        <a href="https://developer.mozilla.org/en-US/search?q=FabioVergani" target="_blank" rel="noopener noreferrer">
             <img width="90" alt="MDN" src="./JavaScript.svg">
         </a>
-        [go](http://stackoverflow.com){:target="_blank"}.
     </p>
     <table>
        <tr>
