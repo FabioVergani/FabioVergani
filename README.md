@@ -8,7 +8,9 @@
         </h3>
     </header>
     <p>
-        <a href="https://developer.mozilla.org/en-US/search?q=FabioVergani"><img width="84" alt="MDN" src="./javascript.svg"></a>
+        <a href="https://developer.mozilla.org/en-US/search?q=FabioVergani">
+            <img width="90" alt="MDN" src="./javascript.svg">
+        </a>
     </p>
     <table>
        <tr>
@@ -60,7 +62,9 @@
         <b>#senior</b>
     </p>
     <p>
-        <a title="#sviluppatorefrontend" href="https://www.linkedin.com/in/sviluppatorefrontend/"><img width="72" alt="linkedIn" src="./linkedIn.svg"></a>
+        <a title="#sviluppatorefrontend" href="https://www.linkedin.com/in/sviluppatorefrontend/">
+            <img width="72" alt="linkedIn" src="./linkedIn.svg">
+        </a>
     </p> 
 </div> 
 
