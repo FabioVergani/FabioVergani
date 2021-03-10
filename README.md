@@ -8,9 +8,7 @@
         </h3>
     </header>
     <p>
-        <a title="#sviluppatorefrontend" href="https://www.linkedin.com/in/sviluppatorefrontend/">
-            <img width="72" alt="linkedIn" src="./linkedIn.svg">
-        </a>
+        <a href="https://developer.mozilla.org/en-US/search?q=FabioVergani"><img width="84" alt="MDN" src="./javascript.svg"></a>
     </p>
     <table>
        <tr>
@@ -55,17 +53,15 @@
           </td>
       </tr>
     </table>
-    <div>
+    <p>
         <b>#javascript</b>&ensp;
         <b>#learningisfun</b>&ensp;
         <b>#frontend</b>&ensp;
         <b>#senior</b>
-        <p>
-            <a href="https://developer.mozilla.org/en-US/search?q=FabioVergani">
-                <img width="84" alt="MDN" src="./javascript.svg">
-            </a>
-        </p> 
-    </div>
+    </p>
+    <p>
+        <a title="#sviluppatorefrontend" href="https://www.linkedin.com/in/sviluppatorefrontend/"><img width="72" alt="linkedIn" src="./linkedIn.svg"></a>
+    </p> 
 </div> 
 
 ![](./image.svg)
