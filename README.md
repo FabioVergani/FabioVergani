@@ -1,5 +1,5 @@
 <div align="center">
-    <img width="90" alt="DevOps" src="./devops.svg">
+    <img width="90" alt="DevOps" src="./devOps.svg">
     <header>
         <h1>
             Hi 👋, I'm Fabio
