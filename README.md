@@ -1,4 +1,5 @@
 <div align="center">
+    <img width="90" alt="DevOps" src="./devops.svg">
     <header>
         <h1>
             Hi 👋, I'm Fabio
