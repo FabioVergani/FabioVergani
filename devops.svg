@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220">
+	<foreignObject width="100%" height="100%">
+		<style>
+		span{
+			background: conic-gradient( #000 0deg, #000 200deg, transparent 320deg, transparent 360deg );
+			display: inline-block;
+			border-radius: 50%;
+			height: 200px;
+			width: 200px;
+			-webkit-mask: radial-gradient( transparent 50px, #000 50px );
+		}
+		</style>
+		<div xmlns="http://www.w3.org/1999/xhtml" class="infinity" style="display:inline-block;text-align:left;font-size:0;transform: translate(25px);filter:drop-shadow(0 0 6px #000);">
+			<span style="--shadow1:#000000;--shadow2:#ededed;transform:translate(0) rotate(89deg);">Dev</span>
+			<span style="--shadow1:#1d1d1d;--shadow2:#d6d6d6;transform:translate(-50px) rotate(-90deg);">Ops</span>
+		</div>
+	</foreignObject>
+</svg>
