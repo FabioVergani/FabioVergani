@@ -1,5 +1,5 @@
 <div align="center">
-    <img width="90" alt="DevOps" src="./devOps.svg">
+    <img width="90" height"49" alt="DevOps" title="Code never lies; comments sometimes do." src="./devOps.svg">
     <header>
         <h1>
             Hi 👋, I'm Fabio
