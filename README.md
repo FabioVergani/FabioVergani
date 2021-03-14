@@ -32,13 +32,13 @@
     "singleQuote": true,
     "trailingComma": "all",
     "bracketSpacing": true,
-    "arrowParens":"avoid"
+    "arrowParens":"<a href="https://prettier.io/docs/en/options.html#arrow-function-parentheses">avoid</a>"
 }
 </pre>
       </td>
       <td valign="top" width="34%">
 <pre>
-// edit terser options
+// edit <a href="https://try.terser.org">terser</a> <a href="https://terser.org/docs/api-reference#minify-options-structure">options</a>
 {
     compress: {
         global_defs: {
