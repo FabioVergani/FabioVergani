@@ -17,8 +17,8 @@
        <tr>
           <td valign="top" width="33%">
 <pre>
-/* eslint-disable */
-/* prettier-ignore */
+/* <a href="https://eslint.org/demo">eslint</a>-disable */
+/* <a href="https://prettier.io/playground">prettier</a>-ignore */
 </pre>
       </td>
       <td valign="top" width="32%">
