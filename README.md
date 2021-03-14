@@ -20,6 +20,9 @@
 /* <a href="https://eslint.org/demo">eslint</a>-disable */
 /* <a href="https://prettier.io/playground">prettier</a>-ignore */
 </pre>
+        <a align="center">
+            <img width="208" height"264" title="So true" src="./res/memes/programming/why.png">
+        </a>
       </td>
       <td valign="top" width="32%">
 <pre>
