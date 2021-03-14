@@ -1,7 +1,7 @@
 <div align="center">
     <header>
         <h1>
-            <img width="90" height"49" alt="DevOps" title="Code never lies, comments sometimes do." src=".res/image/devOps.svg"><br>
+            <img width="90" height"49" alt="DevOps" title="Code never lies, comments sometimes do." src="./res/image/devOps.svg"><br>
             Hi 👋, I'm Fabio
         </h1>
         <h3>
@@ -9,7 +9,7 @@
         </h3>
     </header>
     <p>
-        <a href="https://developer.mozilla.org/en-US/search?q=FabioVergani"><!-- -->
+        <a href="https://developer.mozilla.org/en-US/search?q="><!-- ?q=FabioVergani -->
             <img width="90" alt="MDN" src="./res/image/JavaScript.svg">
         </a>
     </p>
