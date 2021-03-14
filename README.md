@@ -23,7 +23,7 @@
       </td>
       <td valign="top" width="32%">
 <pre>
-//.prettierrc
+//<a href="https://codesandbox.io/dashboard/templates?workspace=371fcd5c-7ee8-4d89-80d0-9054ff0af021">.prettierrc</a>
 {
     "tabWidth": 2,
     "useTabs": true,
