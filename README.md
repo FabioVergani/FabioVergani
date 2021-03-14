@@ -1,11 +1,11 @@
 <div align="center">
     <header>
         <h1>
-            <img width="90" height"49" alt="DevOps" title="Code never lies; comments sometimes do." src="./devOps.svg"><br>
+            <img width="90" height"49" alt="DevOps" title="Code never lies, comments sometimes do." src="./devOps.svg"><br>
             Hi 👋, I'm Fabio
         </h1>
         <h3>
-            I like art, design and typography ...and of course ❤️ Js.
+            I like art, design and typography ...and of course <a href="https://jshint.com">❤️</a> Js.
         </h3>
     </header>
     <p>
