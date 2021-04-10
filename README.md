@@ -60,7 +60,7 @@
       </tr>
     </table>
     <p>
-        <b>#javascript</b>&ensp;
+        <b><a href="https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/after">#javascript</a></b>&ensp;
         <b>#learningisfun</b>&ensp;
         <b>#frontend</b>&ensp;
         <b>#senior</b>
