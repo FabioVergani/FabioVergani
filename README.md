@@ -5,7 +5,7 @@
             Hi 👋, I'm Fabio
         </h1>
         <h3>
-            I like art, design and typography ...and of course <a href="https://jshint.com">❤️</a> Js.
+            I like art, design and typography ...and of course <a href="https://jshint.com">❤️</a> <a href="https://httparchive.org/reports/state-of-javascript" target="_blank">Js</a>.
         </h3>
     </header>
     <p>
