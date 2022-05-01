@@ -31,12 +31,12 @@
   "printWidth": 80,
   "tabWidth": 2,
   "useTabs": true,
-  "semi": false,
+  "semi": true,
   "singleQuote": true,
   "trailingComma": "all",
   "bracketSpacing": true,
   "jsxBracketSameLine": false,
-  "arrowParens":"<a href="https://prettier.io/docs/en/options.html#arrow-function-parentheses">avoid</a>",
+  "arrowParens": "avoid",
   "overrides": [
     {
       "files": "*.css",
