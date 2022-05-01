@@ -17,7 +17,6 @@
        <tr>
           <td valign="top" width="33%">
 <pre>
-/* <a href="https://eslint.org/demo">eslint</a>-disable */
 /* <a href="https://prettier.io/playground">prettier</a>-ignore */
 </pre>
         <a href="./res/memes/programming/worst-code-ever-run.jpg">
@@ -65,6 +64,11 @@
     keep_classnames: true,
     keep_fnames: true
 }
+</pre>
+<pre>
+// es-lint
+/* <a href="https://eslint.org/demo">eslint</a>-disable */
+/* <a href="https://eslint.org/docs/user-guide/configuring/language-options">global</a> globalThis */
 </pre>
           </td>
       </tr>
