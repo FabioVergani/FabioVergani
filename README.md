@@ -26,16 +26,27 @@
       </td>
       <td valign="top" width="32%">
 <pre>
-//<a href="https://codesandbox.io/dashboard/templates?workspace=371fcd5c-7ee8-4d89-80d0-9054ff0af021">.prettierrc</a>
+//<a href="https://prettier.io/docs/en/configuration.html">.prettierrc</a>
 {
-    "tabWidth": 2,
-    "useTabs": true,
-    "printWidth": 999,
-    "semi": true,
-    "singleQuote": true,
-    "trailingComma": "all",
-    "bracketSpacing": true,
-    "arrowParens":"<a href="https://prettier.io/docs/en/options.html#arrow-function-parentheses">avoid</a>"
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": true,
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "arrowParens":"<a href="https://prettier.io/docs/en/options.html#arrow-function-parentheses">avoid</a>",
+  "overrides": [
+    {
+      "files": "*.css",
+      "options": {
+        "singleQuote": false,
+        "useTabs": true,
+        "tabWidth": 4
+      }
+    }
+  ]
 }
 </pre>
       </td>
