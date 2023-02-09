@@ -84,6 +84,7 @@
             <img width="72" alt="linkedIn" src="./res/image/linkedIn.svg">
         </a>
     </p> 
+    <pre><a href="https://developer.chrome.com/blog/quickly-monitor-events-from-the-console-panel-2/">monitorEvents</a>(object [, events])</pre>
 </div> 
 
 <!--
