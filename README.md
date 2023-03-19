@@ -22,6 +22,9 @@
         <a href="./res/memes/programming/worst-code-ever-run.jpg">
             <img width="208" height"264" title="So true." src="./res/memes/programming/why.png">
         </a>
+        <p>
+            <img width="208" height"264" src="./res/image/npm.svg">
+        </p>
       </td>
       <td valign="top" width="32%">
 <pre>
