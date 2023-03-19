@@ -22,7 +22,7 @@
         <a href="./res/memes/programming/worst-code-ever-run.jpg">
             <img width="208" height"264" title="So true." src="./res/memes/programming/why.png">
         </a>
-        <p style="text-align: center;">
+        <p align="center">
             <a href="./npm.md">
                 <img width="50px" src="./res/image/npm.svg">
             </a>
