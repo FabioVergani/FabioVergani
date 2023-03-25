@@ -15,22 +15,27 @@
     </p>
     <table>
        <tr>
-          <td valign="top" width="33%">
+          <td valign="top" width="33%"> 
+              <br />
+            <div align="center">
+                <p>
+                    <a href="./res/memes/programming/worst-code-ever-run.jpg">
+                        <img width="208" height"264" title="So true." src="./res/memes/programming/why.png">
+                    </a>
+                </p>
+                <p>
+                    <a href="./npm.md">
+                        <img width="50px" src="./res/image/npm.svg">
+                    </a>
+                </p>
+            </div>
 <pre>
-/* <a href="https://prettier.io/playground">prettier</a>-ignore */
+<a href="https://formulae.brew.sh/cask/chromium">brew</a> install <a href="https://www.chromium.org/chromium-projects/)">chromium</a> --no-quarantine
 </pre>
-        <a href="./res/memes/programming/worst-code-ever-run.jpg">
-            <img width="208" height"264" title="So true." src="./res/memes/programming/why.png">
-        </a>
-        <p align="center">
-            <a href="./npm.md">
-                <img width="50px" src="./res/image/npm.svg">
-            </a>
-        </p>
       </td>
       <td valign="top" width="32%">
 <pre>
-//<a href="https://prettier.io/docs/en/configuration.html">.prettierrc</a>
+// <a href="https://prettier.io/docs/en/configuration.html">.prettierrc</a>
 {
   "printWidth": 80,
   "tabWidth": 2,
@@ -51,6 +56,9 @@
     }
   ]
 }
+<p>
+// <a href="https://prettier.io/playground">prettier</a>-ignore
+</p>
 </pre>
       </td>
       <td valign="top" width="34%">
@@ -70,10 +78,10 @@
     keep_fnames: true
 }
 </pre>
-<pre>
-// es-lint
-/* <a href="https://eslint.org/demo">eslint</a>-disable */
-/* <a href="https://eslint.org/docs/user-guide/configuring/language-options">global</a> globalThis */
+ <pre>
+// <a href="https://eslint.org/demo">eslint</a>
+eslint-disable
+<a href="https://eslint.org/docs/user-guide/configuring/language-options">global</a> globalThis
 </pre>
           </td>
       </tr>
