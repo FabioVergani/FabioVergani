@@ -35,6 +35,9 @@
       </td>
       <td valign="top" width="32%">
 <pre>
+<p>
+// <a href="https://prettier.io/playground">prettier</a>-ignore
+</p>
 // <a href="https://prettier.io/docs/en/configuration.html">.prettierrc</a>
 {
   "printWidth": 80,
@@ -45,6 +48,7 @@
   "trailingComma": "all",
   "bracketSpacing": true,
   "arrowParens": "avoid",
+  "proseWrap": "preserve"
   "overrides": [
     {
       "files": "*.css",
@@ -56,14 +60,13 @@
     }
   ]
 }
-<p>
-// <a href="https://prettier.io/playground">prettier</a>-ignore
-</p>
 </pre>
       </td>
       <td valign="top" width="34%">
 <pre>
+<p>
 // edit <a href="https://try.terser.org">terser</a> <a href="https://terser.org/docs/api-reference#minify-options-structure">options</a>
+</p>
 {
     compress: {
         global_defs: {
