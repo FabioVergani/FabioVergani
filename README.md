@@ -75,7 +75,8 @@
     },
     mangle: false,
     output: {
-        beautify: true
+        beautify: true,
+        comments: true
     },
     keep_classnames: true,
     keep_fnames: true
