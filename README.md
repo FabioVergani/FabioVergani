@@ -28,6 +28,11 @@
                         <img width="50px" src="./res/image/npm.svg">
                     </a>
                 </p>
+                <p>
+                    <a href="././res/memes/programming/line178.png">
+                        <img width="208" src="./res/memes/programming/line178s.png">
+                    </a>
+                </p>
             </div>
 <pre>
 <a href="https://formulae.brew.sh/cask/chromium">brew</a> install <a href="https://www.chromium.org/chromium-projects/)">chromium</a> --no-quarantine
