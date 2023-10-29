@@ -50,7 +50,7 @@
   "useTabs": true,
   "semi": true,
   "singleQuote": true,
-  "trailingComma": "all",
+  "trailingComma": "none",
   "bracketSpacing": true,
   "arrowParens": "avoid",
   "proseWrap": "preserve",
