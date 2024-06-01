@@ -81,7 +81,8 @@
     mangle: false,
     output: {
         beautify: true,
-        comments: true
+        comments: true,
+        braces: true
     },
     keep_classnames: true,
     keep_fnames: true
