@@ -36,6 +36,9 @@
             </div>
 <pre>
 <a href="https://formulae.brew.sh/cask/chromium">brew</a> install <a href="https://www.chromium.org/chromium-projects/)">chromium</a> --no-quarantine
+<br>
+<a href="https://eslint.org/demo">eslint</a>-disable
+<a href="https://eslint.org/docs/user-guide/configuring/language-options">global</a> globalThis
 </pre>
       </td>
       <td valign="top" width="32%">
@@ -87,12 +90,10 @@
 }
 </pre>
 <pre>
-terser a.js -o b.js --config-file c.js
-</pre>
- <pre>
-// <a href="https://eslint.org/demo">eslint</a>
-eslint-disable
-<a href="https://eslint.org/docs/user-guide/configuring/language-options">global</a> globalThis
+terser
+    input.js
+    -o output.js
+    --config-file tc.js
 </pre>
           </td>
       </tr>
