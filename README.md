@@ -15,8 +15,8 @@
     </p>
     <table>
        <tr>
-          <td valign="top" width="33%"> 
-              <br />
+          <td valign="top" width="33%" rowspan="2"> 
+            <br />
             <div align="center">
                 <p>
                     <a href="./res/memes/programming/worst-code-ever-run.jpg">
@@ -34,12 +34,6 @@
                     </a>
                 </p>
             </div>
-<pre>
-<a href="https://formulae.brew.sh/cask/chromium">brew</a> install <a href="https://www.chromium.org/chromium-projects/)">chromium</a> --no-quarantine
-<br>
-<a href="https://eslint.org/demo">eslint</a>-disable
-<a href="https://eslint.org/docs/user-guide/configuring/language-options">global</a> globalThis
-</pre>
       </td>
       <td valign="top" width="32%">
 <pre>
@@ -97,6 +91,16 @@ terser
 </pre>
           </td>
       </tr>
+		<tr>
+			<td colspan="2">
+<pre>
+<a href="https://formulae.brew.sh/cask/chromium">brew</a> install <a href="https://www.chromium.org/chromium-projects/)">chromium</a> --no-quarantine
+<br>
+<a href="https://eslint.org/demo">eslint</a>-disable
+<a href="https://eslint.org/docs/user-guide/configuring/language-options">global</a> globalThis
+</pre>
+            </td>
+		</tr>
     </table>
     <p>
         <b><a href="https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/after">#javascript</a></b>&ensp;
