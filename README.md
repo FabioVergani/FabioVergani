@@ -54,16 +54,14 @@
   "bracketSpacing": true,
   "arrowParens": "avoid",
   "proseWrap": "preserve",
-  "overrides": [
-    {
-      "files": "*.css",
-      "options": {
-        "singleQuote": false,
-        "useTabs": true,
-        "tabWidth": 4
-      }
-    }
-  ]
+  "overrides": [{
+   "files": "*.css",
+   "options": {
+    "singleQuote": false,
+    "useTabs": true,
+    "tabWidth": 4
+   }
+  }]
 }
 </pre>
       </td>
@@ -87,6 +85,9 @@
     keep_classnames: true,
     keep_fnames: true
 }
+</pre>
+<pre>
+terser a.js -o b.js --config-file c.js
 </pre>
  <pre>
 // <a href="https://eslint.org/demo">eslint</a>
