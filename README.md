@@ -87,7 +87,7 @@
 terser
     input.js
     -o output.js
-    --config-file tc.js
+    --config-file <a href="https://terser.org/docs/api-reference/#minify-options-structure">tc.json</a>
 </pre>
           </td>
       </tr>
