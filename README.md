@@ -69,6 +69,7 @@
 </p>
 {
     compress: {
+	booleans: false,
         global_defs: {
             DEBUG: true
         }
