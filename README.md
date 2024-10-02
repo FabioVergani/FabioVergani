@@ -5,7 +5,7 @@
             Hi 👋, I'm Fabio
         </h1>
         <h3>
-            I like art, design, typography... and <a href="https://jshint.com">❤️</a> <a href="https://httparchive.org/reports/state-of-javascript" target="_blank">Js</a>.
+            I like art, design, typography... and <a href="https://httparchive.org/reports/state-of-javascript" target="_blank">Javascript</a>.
         </h3>
     </header>
     <p>
@@ -29,7 +29,7 @@
                     </a>
                 </p>
                 <p>
-                    <a href="././res/memes/programming/line178.png">
+                    <a href="https://jshint.com">
                         <img width="208" src="./res/memes/programming/line178s.png">
                     </a>
                 </p>
@@ -104,7 +104,7 @@ terser
 		</tr>
     </table>
     <p>
-        <b><a href="https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/after">#javascript</a></b>&ensp;
+        <b><a href="https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/after">#js</a></b>&ensp;
         <b>#learningisfun</b>&ensp;
         <b>#frontend</b>&ensp;
         <b>#senior</b>
