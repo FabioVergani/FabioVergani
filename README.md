@@ -109,11 +109,13 @@ terser
         <b>#frontend</b>&ensp;
         <b>#senior</b>
     </p>
+    <!--
     <p>
-        <a title="#sviluppatorefrontend" href="https://www.linkedin.com/in/sviluppatorefrontend/">
+        <a href="https://www.linkedin.com/in/fvergani/">
             <img width="72" alt="linkedIn" src="./res/image/linkedIn.svg">
         </a>
-    </p> 
+    </p>
+    --> 
     <pre><a href="https://developer.chrome.com/blog/quickly-monitor-events-from-the-console-panel-2/">monitorEvents</a>(object [, events])</pre>
    <p>
 	Code never lies; comments sometimes do.
