@@ -115,6 +115,17 @@ terser
         </a>
     </p> 
     <pre><a href="https://developer.chrome.com/blog/quickly-monitor-events-from-the-console-panel-2/">monitorEvents</a>(object [, events])</pre>
+   <p>
+	Code never lies; comments sometimes do.
+   </p>
+   <p>
+	<pre> 
+〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
+ It's hardware that makes a machine fast.
+ It's software that makes a fast machine slow.
+〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
+	</pre>
+    </p>	
 </div> 
 
 <!--
