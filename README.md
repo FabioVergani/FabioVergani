@@ -105,6 +105,7 @@ terser
     </table>
     <p>
         <b><a href="https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/after">#js</a></b>&ensp;
+	<b><a href="https://jsdoc.app" title=" /[ \t]*\/\*\*\s*\n([^*]*(\*[^/])?)*\*\//g">#jsdoc</a></b>&ensp;  
 	<b><a href="https://byojs.dev">#byojs</a></b>&ensp; 
         <b>#learningisfun</b>&ensp;
         <b>#frontend</b>&ensp;
