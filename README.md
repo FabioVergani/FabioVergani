@@ -129,7 +129,8 @@ terser
  It's software that makes a fast machine slow.
 〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
 	</pre>
-    </p>	
+    </p>
+    <img src="./res/image/toy2.svg">
 </div> 
 
 <!--
