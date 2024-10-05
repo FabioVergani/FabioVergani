@@ -1,13 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100vw" height="100vh">
+<svg xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml" style="height: 100%;">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="scene">
             <style>
-.s12hedron__face:nth-child(n + 7), .s20hedron__face:nth-child(n + 11) {
+
+    .s12hedron__face:nth-child(n + 7), .s20hedron__face:nth-child(n + 11) {
   filter: brightness(1.1);
 }
 
 .s12hedron__face:nth-child(6n):after {
   animation-play-state: paused;
+}
+
+body {
+  margin: 0;
 }
 
 .scene {
@@ -263,7 +268,7 @@
   }
 }
             </style>
-<div class="scene">
+
   <div class="s3d">
     <div class="rotor">
       <div class="s2d s12hedron__face"></div>
@@ -300,7 +305,7 @@
       <div class="s2d s20hedron__face"></div>
     </div>
   </div>
-</div>
+
         </div>
     </foreignObject>
 </svg>
