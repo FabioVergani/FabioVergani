@@ -130,7 +130,6 @@ terser
 〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
 	</pre>
     </p>
-    <img src="./res/image/toy2.svg">
 </div> 
 
 <!--
