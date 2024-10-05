@@ -1,0 +1,131 @@
+<svg class="scene" xmlns="http://www.w3.org/2000/svg" width="200" height="120">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="height: 100%;">
+            <style>
+                .c {
+                    height: 100%;
+				 perspective: 500px;
+                }
+                .c [class*='d'] {
+                    position: absolute;
+                }
+                .c .d {
+                    top: 50%;
+                    left: 50%;
+                    transform-style: preserve-3d;
+                    font-size: 5vmin;
+                    transform: rotate3d(var(--i, -7), var(--j, 8), 0, var(--a, 47deg)) var(--p,);
+                }
+                .c .df {
+                    margin: -1em;
+                    width: 2em;
+                    height: 2em;
+                    backface-visibility: hidden;
+                    --i: 0;
+                    --j: 1;
+                    transform: rotate3d(var(--i), var(--j), 0, var(--a)) translateZ(1em);
+                    background: linear-gradient(var(--ga), var(--gs));
+				 filter: grayscale(25%) sepia(5%)
+                }
+                .c .df:nth-child(n + 5) {
+                    --i: 1;
+                    --j: 0;
+                }
+                .c .df:nth-child(1) {
+                    --a: 0deg;
+                    --ga: 168deg;
+                    --gs: #feffaa, #b2ff90;
+                }
+                .c .df:nth-child(2) {
+                    --a: 90deg;
+                    --ga: 61deg;
+                    --gs: #fbc2eb, #a6c1ee;
+                }
+                .c .df:nth-child(3) {
+                    --a: 180deg;
+                    --ga: 74deg;
+                    --gs: #84fab0, #8fd3f4;
+                }
+                .c .df:nth-child(4) {
+                    --a: 270deg;
+                    --ga: 147deg;
+                    --gs: #a1c4fd, #c2e9fb;
+                }
+                .c .df:nth-child(5) {
+                    --a: 90deg;
+                    --ga: 146deg;
+                    --gs: #f6d365, #fda085;
+                }
+                .c .df:nth-child(6) {
+                    --a: -90deg;
+                    --ga: 199deg;
+                    --gs: #ffecd2, #fcb69f;
+                }
+            </style>
+            <div class='c'>
+                <div class='d'>
+                    <div class='df'></div>
+                    <div class='df'></div>
+                    <div class='df'></div>
+                    <div class='df'></div>
+                    <div class='df'></div>
+                    <div class='df'></div>
+                </div>
+            </div>
+            <script>
+                const rotationFactor = 0.2, cubeElement = document.querySelector('.d');
+                let isDragging, initialX = 0, initialY = 0, lastDeltaX = 0, lastDeltaY = 0;
+                document.addEventListener('pointerdown', event => {
+                    isDragging = true;
+                    initialX = event.clientX;
+                    initialY = event.clientY;
+                    lastDeltaX =  lastDeltaY = 0;
+                });
+                document.addEventListener('pointermove', event => {
+                    if (isDragging) {
+                        const currentX = event.clientX;
+                        const currentY = event.clientY;
+                        const deltaX = currentX - initialX;
+                        const deltaY = currentY - initialY;
+                        const distance = Math.hypot(deltaX, deltaY);
+                        if (distance) {
+						    const s = cubeElement.style;
+                            s.setProperty('--p', getComputedStyle(cubeElement).transform.replace('none', ''));
+                            s.setProperty('--i', (-deltaY).toFixed(2));
+                            s.setProperty('--j', deltaX.toFixed(2));
+                            s.setProperty('--a', `${(rotationFactor * distance).toFixed(2)}deg`);
+                            initialX = currentX;
+                            initialY = currentY;
+                            lastDeltaX = deltaX;
+                            lastDeltaY = deltaY;
+                        }
+                    }
+                });
+                document.addEventListener('pointerup', () => {
+                    if (isDragging) {
+                        isDragging = false;
+                        initialX = initialY = null;
+                        const inertiaX = lastDeltaX * 0.1;
+                        const inertiaY = lastDeltaY * 0.1;
+                        let inertiaFrame;
+                        function applyInertia() {
+                            if (Math.abs(inertiaX) > 0.01 || Math.abs(inertiaY) > 0.01) {
+							    const s = cubeElement.style;
+								const cs = getComputedStyle(cubeElement);
+                                s.setProperty('--p', cs.transform.replace('none', ''));
+                                s.setProperty('--i', (parseFloat(cs.getPropertyValue('--i')) - inertiaY).toFixed(2));
+                                s.setProperty('--j', (parseFloat(cs.getPropertyValue('--j')) + inertiaX).toFixed(2));
+                                inertiaFrame = requestAnimationFrame(applyInertia);
+                                inertiaX *= 0.95;
+                                inertiaY *= 0.95;
+                            } else {
+                                cancelAnimationFrame(inertiaFrame);
+                            }
+                        }
+                        applyInertia();
+                    }
+                });
+            </script>
+        </div>
+    </foreignObject>
+</svg>
