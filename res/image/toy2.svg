@@ -1,0 +1,306 @@
+<svg class="scene" xmlns="http://www.w3.org/2000/svg" width="200" height="100">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="height: 100%;">
+            <style>
+.s12hedron__face:nth-child(n + 7), .s20hedron__face:nth-child(n + 11) {
+  filter: brightness(1.1);
+}
+
+.s12hedron__face:nth-child(6n):after {
+  animation-play-state: paused;
+}
+
+.scene {
+  height: 100vh;
+}
+.scene div, .scene :before, .scene :after {
+  position: absolute;
+  transform-style: preserve-3d;
+}
+
+.s3d {
+  top: 50%;
+  left: 50%;
+  transform: rotateX(-10deg);
+}
+
+.rotor {
+  animation: r 8s linear infinite;
+}
+
+@keyframes r {
+  to {
+    transform: rotateY(1turn);
+  }
+}
+.s2d {
+  opacity: .85;
+}
+.s2d:before, .s2d:after {
+  opacity: .99;
+  background: #baabab;
+  content: '';
+}
+.s2d:after {
+  background: #f7eeee;
+  animation: shade 4s linear infinite alternate;
+}
+
+.s12hedron__face {
+  opacity: .000085;
+}
+.s12hedron__face:nth-child(1) {
+  transform: scaleY(1) rotateY(0deg) rotateX(-26.56505deg) translateZ(7.94654em);
+}
+.s12hedron__face:nth-child(1):after {
+  animation-delay: 0s;
+}
+.s12hedron__face:nth-child(2) {
+  transform: scaleY(1) rotateY(72deg) rotateX(-26.56505deg) translateZ(7.94654em);
+}
+.s12hedron__face:nth-child(2):after {
+  animation-delay: -1.6s;
+}
+.s12hedron__face:nth-child(3) {
+  transform: scaleY(1) rotateY(144deg) rotateX(-26.56505deg) translateZ(7.94654em);
+}
+.s12hedron__face:nth-child(3):after {
+  animation-delay: -3.2s;
+}
+.s12hedron__face:nth-child(4) {
+  transform: scaleY(1) rotateY(216deg) rotateX(-26.56505deg) translateZ(7.94654em);
+}
+.s12hedron__face:nth-child(4):after {
+  animation-delay: -4.8s;
+}
+.s12hedron__face:nth-child(5) {
+  transform: scaleY(1) rotateY(288deg) rotateX(-26.56505deg) translateZ(7.94654em);
+}
+.s12hedron__face:nth-child(5):after {
+  animation-delay: -6.4s;
+}
+.s12hedron__face:nth-child(6) {
+  transform: scaleY(1) rotateY(36deg) rotateX(-90deg) translateZ(7.94654em);
+}
+.s12hedron__face:nth-child(6):after {
+  animation-delay: -2.8s;
+}
+.s12hedron__face:nth-child(7) {
+  transform: scaleY(-1) rotateY(36deg) rotateX(-26.56505deg) translateZ(7.94654em);
+}
+.s12hedron__face:nth-child(7):after {
+  animation-delay: -0.8s;
+}
+.s12hedron__face:nth-child(8) {
+  transform: scaleY(-1) rotateY(108deg) rotateX(-26.56505deg) translateZ(7.94654em);
+}
+.s12hedron__face:nth-child(8):after {
+  animation-delay: -2.4s;
+}
+.s12hedron__face:nth-child(9) {
+  transform: scaleY(-1) rotateY(180deg) rotateX(-26.56505deg) translateZ(7.94654em);
+}
+.s12hedron__face:nth-child(9):after {
+  animation-delay: -4s;
+}
+.s12hedron__face:nth-child(10) {
+  transform: scaleY(-1) rotateY(252deg) rotateX(-26.56505deg) translateZ(7.94654em);
+}
+.s12hedron__face:nth-child(10):after {
+  animation-delay: -5.6s;
+}
+.s12hedron__face:nth-child(11) {
+  transform: scaleY(-1) rotateY(324deg) rotateX(-26.56505deg) translateZ(7.94654em);
+}
+.s12hedron__face:nth-child(11):after {
+  animation-delay: -7.2s;
+}
+.s12hedron__face:nth-child(12) {
+  transform: scaleY(-1) rotateY(0deg) rotateX(-90deg) translateZ(7.94654em);
+}
+.s12hedron__face:nth-child(12):after {
+  animation-delay: 0s;
+}
+.s12hedron__face:before, .s12hedron__face:after {
+  margin: -6.07062em;
+  width: 12.14124em;
+  height: 12.14124em;
+  -webkit-clip-path: polygon(50% 0%, 97.55283% 34.54915%, 97.55283% 34.54915%, 79.38926% 90.45085%, 79.38926% 90.45085%, 20.61074% 90.45085%, 20.61074% 90.45085%, 2.44717% 34.54915%, 2.44717% 34.54915%, 50% 0%);
+  clip-path: polygon(50% 0%, 97.55283% 34.54915%, 97.55283% 34.54915%, 79.38926% 90.45085%, 79.38926% 90.45085%, 20.61074% 90.45085%, 20.61074% 90.45085%, 2.44717% 34.54915%, 2.44717% 34.54915%, 50% 0%);
+}
+
+.s20hedron__face:nth-child(13) {
+  transform: scaleY(1) rotateY(0deg) rotateX(52.62263deg) translateZ(7.94654em);
+}
+.s20hedron__face:nth-child(13):after {
+  animation-delay: 0s;
+}
+.s20hedron__face:nth-child(14) {
+  transform: scaleY(1) rotateY(72deg) rotateX(52.62263deg) translateZ(7.94654em);
+}
+.s20hedron__face:nth-child(14):after {
+  animation-delay: -1.6s;
+}
+.s20hedron__face:nth-child(15) {
+  transform: scaleY(1) rotateY(144deg) rotateX(52.62263deg) translateZ(7.94654em);
+}
+.s20hedron__face:nth-child(15):after {
+  animation-delay: -3.2s;
+}
+.s20hedron__face:nth-child(16) {
+  transform: scaleY(1) rotateY(216deg) rotateX(52.62263deg) translateZ(7.94654em);
+}
+.s20hedron__face:nth-child(16):after {
+  animation-delay: -4.8s;
+}
+.s20hedron__face:nth-child(17) {
+  transform: scaleY(1) rotateY(288deg) rotateX(52.62263deg) translateZ(7.94654em);
+}
+.s20hedron__face:nth-child(17):after {
+  animation-delay: -6.4s;
+}
+.s20hedron__face:nth-child(18) {
+  transform: scaleY(1) rotateY(0deg) rotateX(10.81232deg) translateZ(7.94654em) rotate(0.5turn);
+}
+.s20hedron__face:nth-child(18):after {
+  animation-delay: 0s;
+}
+.s20hedron__face:nth-child(19) {
+  transform: scaleY(1) rotateY(72deg) rotateX(10.81232deg) translateZ(7.94654em) rotate(0.5turn);
+}
+.s20hedron__face:nth-child(19):after {
+  animation-delay: -1.6s;
+}
+.s20hedron__face:nth-child(20) {
+  transform: scaleY(1) rotateY(144deg) rotateX(10.81232deg) translateZ(7.94654em) rotate(0.5turn);
+}
+.s20hedron__face:nth-child(20):after {
+  animation-delay: -3.2s;
+}
+.s20hedron__face:nth-child(21) {
+  transform: scaleY(1) rotateY(216deg) rotateX(10.81232deg) translateZ(7.94654em) rotate(0.5turn);
+}
+.s20hedron__face:nth-child(21):after {
+  animation-delay: -4.8s;
+}
+.s20hedron__face:nth-child(22) {
+  transform: scaleY(1) rotateY(288deg) rotateX(10.81232deg) translateZ(7.94654em) rotate(0.5turn);
+}
+.s20hedron__face:nth-child(22):after {
+  animation-delay: -6.4s;
+}
+.s20hedron__face:nth-child(23) {
+  transform: scaleY(-1) rotateY(36deg) rotateX(52.62263deg) translateZ(7.94654em);
+}
+.s20hedron__face:nth-child(23):after {
+  animation-delay: -0.8s;
+}
+.s20hedron__face:nth-child(24) {
+  transform: scaleY(-1) rotateY(108deg) rotateX(52.62263deg) translateZ(7.94654em);
+}
+.s20hedron__face:nth-child(24):after {
+  animation-delay: -2.4s;
+}
+.s20hedron__face:nth-child(25) {
+  transform: scaleY(-1) rotateY(180deg) rotateX(52.62263deg) translateZ(7.94654em);
+}
+.s20hedron__face:nth-child(25):after {
+  animation-delay: -4s;
+}
+.s20hedron__face:nth-child(26) {
+  transform: scaleY(-1) rotateY(252deg) rotateX(52.62263deg) translateZ(7.94654em);
+}
+.s20hedron__face:nth-child(26):after {
+  animation-delay: -5.6s;
+}
+.s20hedron__face:nth-child(27) {
+  transform: scaleY(-1) rotateY(324deg) rotateX(52.62263deg) translateZ(7.94654em);
+}
+.s20hedron__face:nth-child(27):after {
+  animation-delay: -7.2s;
+}
+.s20hedron__face:nth-child(28) {
+  transform: scaleY(-1) rotateY(36deg) rotateX(10.81232deg) translateZ(7.94654em) rotate(0.5turn);
+}
+.s20hedron__face:nth-child(28):after {
+  animation-delay: -0.8s;
+}
+.s20hedron__face:nth-child(29) {
+  transform: scaleY(-1) rotateY(108deg) rotateX(10.81232deg) translateZ(7.94654em) rotate(0.5turn);
+}
+.s20hedron__face:nth-child(29):after {
+  animation-delay: -2.4s;
+}
+.s20hedron__face:nth-child(30) {
+  transform: scaleY(-1) rotateY(180deg) rotateX(10.81232deg) translateZ(7.94654em) rotate(0.5turn);
+}
+.s20hedron__face:nth-child(30):after {
+  animation-delay: -4s;
+}
+.s20hedron__face:nth-child(31) {
+  transform: scaleY(-1) rotateY(252deg) rotateX(10.81232deg) translateZ(7.94654em) rotate(0.5turn);
+}
+.s20hedron__face:nth-child(31):after {
+  animation-delay: -5.6s;
+}
+.s20hedron__face:nth-child(32) {
+  transform: scaleY(-1) rotateY(324deg) rotateX(10.81232deg) translateZ(7.94654em) rotate(0.5turn);
+}
+.s20hedron__face:nth-child(32):after {
+  animation-delay: -7.2s;
+}
+.s20hedron__face:before, .s20hedron__face:after {
+  margin: -6.07062em;
+  width: 12.14124em;
+  height: 12.14124em;
+  -webkit-clip-path: polygon(50% 0%, 93.30127% 75%, 93.30127% 75%, 6.69873% 75%, 6.69873% 75%, 50% 0%);
+  clip-path: polygon(50% 0%, 93.30127% 75%, 93.30127% 75%, 6.69873% 75%, 6.69873% 75%, 50% 0%);
+}
+
+@keyframes shade {
+  to {
+    opacity: .01;
+  }
+}
+            </style>
+<div class="scene">
+  <div class="s3d">
+    <div class="rotor">
+      <div class="s2d s12hedron__face"></div>
+      <div class="s2d s12hedron__face"></div>
+      <div class="s2d s12hedron__face"></div>
+      <div class="s2d s12hedron__face"></div>
+      <div class="s2d s12hedron__face"></div>
+      <div class="s2d s12hedron__face"></div>
+      <div class="s2d s12hedron__face"></div>
+      <div class="s2d s12hedron__face"></div>
+      <div class="s2d s12hedron__face"></div>
+      <div class="s2d s12hedron__face"></div>
+      <div class="s2d s12hedron__face"></div>
+      <div class="s2d s12hedron__face"></div>
+      <div class="s2d s20hedron__face"></div>
+      <div class="s2d s20hedron__face"></div>
+      <div class="s2d s20hedron__face"></div>
+      <div class="s2d s20hedron__face"></div>
+      <div class="s2d s20hedron__face"></div>
+      <div class="s2d s20hedron__face"></div>
+      <div class="s2d s20hedron__face"></div>
+      <div class="s2d s20hedron__face"></div>
+      <div class="s2d s20hedron__face"></div>
+      <div class="s2d s20hedron__face"></div>
+      <div class="s2d s20hedron__face"></div>
+      <div class="s2d s20hedron__face"></div>
+      <div class="s2d s20hedron__face"></div>
+      <div class="s2d s20hedron__face"></div>
+      <div class="s2d s20hedron__face"></div>
+      <div class="s2d s20hedron__face"></div>
+      <div class="s2d s20hedron__face"></div>
+      <div class="s2d s20hedron__face"></div>
+      <div class="s2d s20hedron__face"></div>
+      <div class="s2d s20hedron__face"></div>
+    </div>
+  </div>
+</div>
+        </div>
+    </foreignObject>
+</svg>
