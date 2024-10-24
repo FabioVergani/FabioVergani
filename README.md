@@ -122,14 +122,41 @@ terser
    <p>
 	Code never lies; comments sometimes do.
    </p>
-   <p>
-	<pre> 
+   <pre> 
 〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
  It's hardware that makes a machine fast.
  It's software that makes a fast machine slow.
 〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
-	</pre>
-    </p>
+   </pre>
+
+   <pre> 
+A human being should be able
+to change a diaper, 
+plan an invasion,
+butcher a hog,
+conn a ship,
+design a building,
+write a sonnet,
+balance accounts,
+build a wall,
+set a bone,
+comfort the dying,
+take orders,
+give orders,
+cooperate with others,
+act alone,
+solve equations,
+analyze a new problem,
+pitch manure,
+program a computer,
+cook a tasty meal,
+fight efficiently,
+die gallantly.
+
+Specialization is for insects. 
+
+Robert A. Heinlein, <i>Starship Troopers</i> (1959)
+    </pre>
 </div> 
 
 <!--
