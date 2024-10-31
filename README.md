@@ -33,6 +33,7 @@
                             <img width="208" src="./res/memes/programming/line178s.png">
                         </a>
                     </p>
+		    <img width="208" src="./res/memes/programming/calculatorWasOnRadian.png">
                 </div>
             </td>
             <td valign="top" width="32%">
