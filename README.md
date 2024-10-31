@@ -1,7 +1,7 @@
 <div align="center">
     <header>
         <h1>
-            <img width="90" height="49" alt="DevOps" src="./res/image/devOps.svg"><br>
+            <img width="94px" height="46px" src="./res/image/devOpsAni.svg"><br>
             Hi 👋, I'm Fabio
         </h1>
         <h3>
