@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#000" stroke-width="10">
+  <defs>
+    <path id="a" d="M58.67 10.11a16.98 16.98 0 0 1 24.3.02c6.7 6.83 6.7 17.9 0 24.74a16.98 16.98 0 0 1-24.3.02L34.33 10.11a16.98 16.98 0 0 0-24.3.02 17.72 17.72 0 0 0 0 24.74 16.98 16.98 0 0 0 24.3.02l24.34-24.78Z"/>
+  </defs>
+  <use stroke-dasharray="100 200 400 600" href="#a">
+    <animate attributeName="stroke-dashoffset" begin="0.25s" dur="12s" from="-400" repeatCount="indefinite" to="1000"/>
+  </use>
+  <use stroke-dasharray="80 160 240 320" href="#a">
+    <animate attributeName="stroke-dashoffset" begin="0.5s" dur="15s" from="-600" repeatCount="indefinite" to="1800"/>
+  </use>
+  <use stroke-dasharray="60 120 180 240" href="#a">
+    <animate attributeName="stroke-dashoffset" begin="0.75s" dur="20s" from="-800" repeatCount="indefinite" to="2500"/>
+  </use>
+</svg>
