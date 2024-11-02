@@ -112,18 +112,15 @@ terser
         <b><a href="https://byojs.dev">#byojs</a></b>&ensp;
         <b>#learningisfun</b>&ensp;
         <b><mark>#frontend</mark></b>&ensp;
-        <b>#senior</b>
+        <b>#senior</b>    
     </p>
-    <p>
-	Code never lies; comments sometimes do.
-    </p>
-    <pre> 
-〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
- It's hardware that makes a machine fast.
- It's software that makes a fast machine slow.
-〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
-   </pre>
-    <pre> 
+    <pre>〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
+Code never lies; comments sometimes do.
+〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰</pre>
+    <pre>It's hardware that makes a machine fast.
+It's software that makes a fast machine slow.
+<sub>Craig Bruce</sub></pre><pre>
+Clean code always looks like it was written by someone who cares.<br><sub>Robert C. Martin</sub></pre><pre>
 A human being should be able
 to change a diaper, 
 plan an invasion,
@@ -145,12 +142,9 @@ pitch manure,
 program a computer,
 cook a tasty meal,
 fight efficiently,
-die gallantly.
-
-Specialization is for insects. 
-
-Robert A. Heinlein, <i>Starship Troopers</i> (1959)
-    </pre>
+die gallantly.<br><br>
+Specialization is for insects.<br>
+<sub>Robert A. Heinlein, <i>Starship Troopers</i> (1959)</sub></pre>
     <p>
         つづく
     </p>
