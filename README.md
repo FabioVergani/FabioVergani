@@ -114,13 +114,15 @@ terser
         <b><mark>#frontend</mark></b>&ensp;
         <b>#senior</b>    
     </p>
-    <pre>〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
-Code never lies; comments sometimes do.
-〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰</pre>
+    <pre>
+<sup>Code never lies; comments sometimes do.</sup>
+<sub>Code dependencies can be more tangled than they seem, and this complexity poses serious security risk.</sub>
+</pre>
     <pre>It's hardware that makes a machine fast.
 It's software that makes a fast machine slow.
 <sub>Craig Bruce</sub></pre><pre>
 Clean code always looks like it was written by someone who cares.<br><sub>Robert C. Martin</sub></pre><pre>
+<sup>
 A human being should be able
 to change a diaper, 
 plan an invasion,
@@ -142,8 +144,9 @@ pitch manure,
 program a computer,
 cook a tasty meal,
 fight efficiently,
-die gallantly.<br><br>
-Specialization is for insects.<br>
+die gallantly.
+</sup>
+<i>Specialization is for insects.</i><br>
 <sub>Robert A. Heinlein, <i>Starship Troopers</i> (1959)</sub></pre>
     <p>
         つづく
