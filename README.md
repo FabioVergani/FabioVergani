@@ -107,15 +107,13 @@ terser
         </tr>
     </table>
     <p>
-        <b><a href="https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/after">#js</a></b>&ensp;
-        <b><a href="https://jsdoc.app" title=" /[ \t]*\/\*\*\s*\n([^*]*(\*[^/])?)*\*\//g">#jsdoc</a></b>&ensp;
-        <b><a href="https://byojs.dev">#byojs</a></b>&ensp;
+        <b><a href="https://jsdoc.app" title="/[ \t]*\/\*\*\s*\n([^*]*(\*[^/])?)*\*\//g">#jsdoc</a></b>&ensp;
+        <!--<b><a href="https://byojs.dev">#byojs</a></b>&ensp;-->
         <b>#learningisfun</b>&ensp;
-        <b><mark>#frontend</mark></b>&ensp;
+        <b><mark><a href="./frontend.md">#frontend</a></mark></b>&ensp;
         <b>#senior</b>    
     </p>
-    <pre>Code never lies; comments sometimes do.</pre>
-    <pre><sub>Code dependencies can be more tangled than they seem, and this complexity poses serious security risk.</sub></pre>
+    <pre>Code never lies; comments sometimes do.<br>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br><sub>Code dependencies can be more tangled than they seem, and this complexity poses serious security risk.</sub></pre>
     <pre>If you think technology can solve your security problems, then you don't understand the problems<br>and you don't understand the technology.<br><sub>Bruce Schneier</sub></pre>
     <pre>It's hardware that makes a machine fast.
 It's software that makes a fast machine slow.
