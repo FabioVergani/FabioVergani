@@ -5,10 +5,9 @@ Frontend developers have a reputation of being “less technical’ than backend
 
 I can’t tell you how often I’ve seen memes or heard people discuss.  
 Let’s get one thing straight: we’re not here just to “make things look pretty.”<br>
-This misconception couldn’t be further from the truth.<br>
-frontend devs are engineers we’re not just working with “visual elements.” <br>
-
-Here’s the reality: we build applications.  
+This misconception couldn’t be further from the truth...<br>
+frontend devs are engineers we’re not just working with “visual elements”,<br>
+here’s the reality:<br>
 
  - we architect user experiences
 > it’s not just code: it’s creating intuitive, seamless, and accessible applications that solve real problems.
@@ -30,7 +29,7 @@ Here’s the reality: we build applications.
 
 Let’s drop the myth: 
 front-end is every bit as technical and essential as back-end:<br>
-at the end of the day, we all have an important part.<br> 
+at the end of the day, we all have an important part: **we build applications**.<br>
 
 The argument about who’s job is harder or who is more important to the final product<br>
 is like arguing about which is more important in a car…  the steering wheel or the engine?<br>
