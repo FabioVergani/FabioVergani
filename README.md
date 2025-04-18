@@ -114,8 +114,9 @@ terser
         <b>#senior</b>    
     </p>
     <pre>Code never lies; comments sometimes do.<br>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br><sub>Code dependencies can be more tangled than they seem, and this complexity poses serious security risk.</sub></pre>
-    <pre>If you think technology can solve your security problems, then you don't understand the problems<br>and you don't understand the technology.<br><sub>Bruce Schneier</sub></pre>
-    <pre>It's hardware that makes a machine fast.
+<pre>AI doesn’t give you a shortcut.<br>It gives you a detour — unless you know how to guide it.</pre>
+<pre>If you think technology can solve your security problems, then you don't understand the problems<br>and you don't understand the technology.<br><sub>Bruce Schneier</sub></pre>
+<pre>It's hardware that makes a machine fast.
 It's software that makes a fast machine slow.
 <sub>Craig Bruce</sub></pre><pre>
 Clean code always looks like it was written by someone who cares.<br><sub>Robert C. Martin</sub></pre><pre><sup>
