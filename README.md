@@ -5,7 +5,7 @@
             Hi 👋, I'm Fabio
         </h1>
         <h3>
-            I like art, design, typography... and <a href="https://httparchive.org/reports/state-of-javascript" target="_blank">Javascript</a>.
+            I like art, design, typography, <a href="https://httparchive.org/reports/state-of-javascript" target="_blank">Javascript</a>, ...and AI.
         </h3>
     </header>
     <p>
@@ -15,7 +15,7 @@
     </p>
     <table>
         <tr>
-            <td valign="top" width="33%" rowspan="2">
+            <td valign="top" width="33%" rowspan="3">
                 <br />
                 <div align="center">
                     <p>
@@ -33,15 +33,16 @@
                             <img width="208" src="./res/memes/programming/line178s.png">
                         </a>
                     </p>
+		    <p>
+        		<b>#learningisfun</b>&ensp;
+        		<b><mark><a href="./frontend.md">#frontend</a></mark></b>  	    
+		    </p>
 		    <img width="208" src="./res/memes/programming/calculatorWasOnRadian.png">
                 </div>
             </td>
             <td valign="top" width="32%">
-<pre>
-<p>
-// <a href="https://prettier.io/playground">prettier</a>-ignore
-</p>
-// <a href="https://prettier.io/docs/en/configuration.html">.prettierrc</a>
+		    <pre><code>// <a href="https://prettier.io/docs/en/configuration.html">.prettierrc</a>
+<sup>
 {
   "printWidth": 80,
   "tabWidth": 2,
@@ -60,14 +61,14 @@
       "tabWidth": 4
     }
   }]
-}
+}</sup></code></pre>
+<pre>
+// <a href="https://prettier.io/playground">prettier</a>-ignore
 </pre>
             </td>
             <td valign="top" width="34%">
-<pre>
-<p>
-// edit <a href="https://try.terser.org">terser</a> <a href="https://terser.org/docs/api-reference#minify-options-structure">options</a>
-</p>
+<pre><code>// edit <a href="https://try.terser.org">terser</a> <a href="https://terser.org/docs/api-reference#minify-options-structure">options</a>
+<sup>
 {
     compress: {
 	booleans: false,
@@ -83,72 +84,119 @@
     },
     keep_classnames: true,
     keep_fnames: true
-}
-</pre>
+}</sup></code></pre>
 <pre>
-terser
+terser<sub>
     input.js
     -o output.js
-    --config-file <a href="https://terser.org/docs/api-reference/#minify-options-structure">tc.json</a>
+    --config-file <a href="https://terser.org/docs/api-reference/#minify-options-structure">tc.json</a></sub>
 </pre>
             </td>
         </tr>
+	<tr>
+		<td>
+<pre><code>// <a href="https://jsdoc.app">jsdoc</a>
+<br>
+<sup>/[ \t]*\/\*\*\s*\n([^*]*(\*[^/])?)*\*\//g</sup>
+</code></pre>
+		</td>
+		<td>
+			<!-- -->
+		</td>
+	</tr>
         <tr>
-            <td colspan="2">
-<pre>
+            <td>
+<sup><sub><pre>
 <a href="https://formulae.brew.sh/cask/chromium">brew</a> install <a href="https://www.chromium.org/chromium-projects/)">chromium</a> --no-quarantine
 <br>
 <a href="https://eslint.org/demo">eslint</a>-disable
 <a href="https://eslint.org/docs/user-guide/configuring/language-options">global</a> globalThis
 <br>
 <a href="https://developer.chrome.com/blog/quickly-monitor-events-from-the-console-panel-2/">monitorEvents</a>(object [, events])
-</pre>
+</pre></sub></sup>
             </td>
+	    <td>
+<sup>
+<pre>
+❌ Every functions needs a unit test.
+❌ More tests mean fewer bugs.
+❌ 100% coverage guarantee quality.<br>
+✅ Selective unit testing.
+✅ Integration tests.
+✅ Robust production monitoring.
+</pre>
+</sup>
+	    </td>
         </tr>
+	<tr>
+		<td colspan="3" align="center">
+			<sub>
+				<sup>
+					Code never lies; comments sometimes do.
+				</sup>
+			</sub>
+		</td>
+	</tr> 
+	<tr>
+		<td colspan="3" align="center">
+			<sub>
+				<sup>
+					Code dependencies can be more tangled than they seem, and this complexity poses serious security risk.
+				</sup>
+			</sub>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="3" align="center">
+			<sub>
+				<sup>
+					AI doesn’t give you a shortcut: It gives you a detour — unless you know how to guide it.	
+				</sup>
+			</sub>
+		</td>
+ 	</tr>
     </table>
-    <p>
-        <b><a href="https://jsdoc.app" title="/[ \t]*\/\*\*\s*\n([^*]*(\*[^/])?)*\*\//g">#jsdoc</a></b>&ensp;
-        <!--<b><a href="https://byojs.dev">#byojs</a></b>&ensp;-->
-        <b>#learningisfun</b>&ensp;
-        <b><mark><a href="./frontend.md">#frontend</a></mark></b>&ensp;
-        <b>#senior</b>    
-    </p>
-    <pre>Code never lies; comments sometimes do.<br>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br><sub>Code dependencies can be more tangled than they seem, and this complexity poses serious security risk.</sub></pre>
-<pre>AI doesn’t give you a shortcut.<br>It gives you a detour — unless you know how to guide it.</pre>
-<pre>If you think technology can solve your security problems, then you don't understand the problems<br>and you don't understand the technology.<br><sub>Bruce Schneier</sub></pre>
-<pre>It's hardware that makes a machine fast.
+  
+<pre>
+If you think technology can solve your security problems, then you don't understand the problems
+nd you don't understand the technology.
+<sub>Bruce Schneier</sub>
+</pre>
+	    
+<pre>
+It's hardware that makes a machine fast.
 It's software that makes a fast machine slow.
-<sub>Craig Bruce</sub></pre><pre>
-Clean code always looks like it was written by someone who cares.<br><sub>Robert C. Martin</sub></pre><pre><sup>
-A human being should be able
-to change a diaper, 
-plan an invasion,
-butcher a hog,
-conn a ship,
-design a building,
-write a sonnet,
+<sub>Craig Bruce</sub>
+</pre>
+
+<pre>
+Clean code always looks like it was written by someone who cares.
+<sub>Robert C. Martin</sub>
+</pre>
+
+<pre>
+A human being should be able to change a diaper, 
+plan an invasion, butcher a hog, conn a ship,
+design a building, write a sonnet,
 balance accounts,
 build a wall,
 set a bone,
 comfort the dying,
-take orders,
-give orders,
-cooperate with others,
-act alone,
-solve equations,
-analyze a new problem,
-pitch manure,
-program a computer,
-cook a tasty meal,
-fight efficiently,
-die gallantly.
-</sup>
-<i>Specialization is for insects.</i><br>
-<sub>Robert A. Heinlein, <i>Starship Troopers</i> (1959)</sub></pre>
-    <p>
-        つづく
-    </p>
-</div>
+take orders, give orders,
+cooperate with others, act alone,
+solve equations, analyze a new problem,
+pitch manure, program a computer, cook a tasty meal,
+fight efficiently, die gallantly.
+
+Specialization is for insects.
+
+<sub>Robert A. Heinlein, <i>Starship Troopers</i> (1959)</sub>
+</pre>
+
+<p>
+つづく
+</p>
+
 <!--
 ![](./image.svg)
 
