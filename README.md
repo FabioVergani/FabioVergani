@@ -129,40 +129,51 @@ terser<sub>
 	    </td>
         </tr>
 	<tr>
-		<td colspan="3" align="center">
-			Code never lies; comments sometimes do.
-		</td>
-	</tr> 
-	<tr>
-		<td colspan="3" align="center">
-			Code dependencies can be more tangled than they seem, and this complexity poses serious security risk.
+		<td align="center" colspan="3">
+			<table>
+				<tr>
+					<td>
+						Code never lies; comments sometimes do.
+					</td>
+				</tr> 
+				<tr>
+					<td>
+						Code dependencies can be more tangled than they seem, and this complexity poses serious security risk.
+					</td>
+				</tr>
+				<tr>
+					<td>
+						AI doesn’t give you a shortcut: It gives you a detour — unless you know how to guide it.	
+					</td>
+			 	</tr>
+			</table>
 		</td>
 	</tr>
 	<tr>
-		<td colspan="3" align="center">
-			AI doesn’t give you a shortcut: It gives you a detour — unless you know how to guide it.	
-		</td>
- 	</tr>
-    </table>
-  
+		<td align="center" colspan="3">
 <pre>
-If you think technology can solve your security problems, then you don't understand the problems
-nd you don't understand the technology.
+<table align="center">
+<tr>
+<td>
+<p>
+If you think technology can solve your security problems,
+then you don't understand the problems
+and you don't understand the technology.
 <sub>Bruce Schneier</sub>
-</pre>
-	    
-<pre>
+</p>
+
+<p>
 It's hardware that makes a machine fast.
 It's software that makes a fast machine slow.
-<sub>Craig Bruce</sub>
-</pre>
+<sub>Craig Bruce</sub>	
+</p>
 
-<pre>
+<p>
 Clean code always looks like it was written by someone who cares.
-<sub>Robert C. Martin</sub>
-</pre>
+<sub>Robert C. Martin</sub>	
+</p>
 
-<pre>
+<p>
 A human being should be able to change a diaper, 
 plan an invasion, butcher a hog, conn a ship,
 design a building, write a sonnet,
@@ -175,11 +186,18 @@ cooperate with others, act alone,
 solve equations, analyze a new problem,
 pitch manure, program a computer, cook a tasty meal,
 fight efficiently, die gallantly.
-
 Specialization is for insects.
-
 <sub>Robert A. Heinlein, <i>Starship Troopers</i> (1959)</sub>
-</pre>
+</p>
+	
+</td>
+</tr>
+</table>	
+</pre>	
+		</td>
+	</tr>
+    </table>
+
 
 <p>
 つづく
