@@ -106,14 +106,14 @@ terser<sub>
 	</tr>
         <tr>
             <td>
-<sup><sub><pre>
+<sub><pre>
 <a href="https://formulae.brew.sh/cask/chromium">brew</a> install <a href="https://www.chromium.org/chromium-projects/)">chromium</a> --no-quarantine
 <br>
 <a href="https://eslint.org/demo">eslint</a>-disable
 <a href="https://eslint.org/docs/user-guide/configuring/language-options">global</a> globalThis
 <br>
 <a href="https://developer.chrome.com/blog/quickly-monitor-events-from-the-console-panel-2/">monitorEvents</a>(object [, events])
-</pre></sub></sup>
+</pre></sub>
             </td>
 	    <td>
 <sup>
@@ -130,29 +130,17 @@ terser<sub>
         </tr>
 	<tr>
 		<td colspan="3" align="center">
-			<sub>
-				<sup>
-					Code never lies; comments sometimes do.
-				</sup>
-			</sub>
+			Code never lies; comments sometimes do.
 		</td>
 	</tr> 
 	<tr>
 		<td colspan="3" align="center">
-			<sub>
-				<sup>
-					Code dependencies can be more tangled than they seem, and this complexity poses serious security risk.
-				</sup>
-			</sub>
+			Code dependencies can be more tangled than they seem, and this complexity poses serious security risk.
 		</td>
 	</tr>
 	<tr>
 		<td colspan="3" align="center">
-			<sub>
-				<sup>
-					AI doesn’t give you a shortcut: It gives you a detour — unless you know how to guide it.	
-				</sup>
-			</sub>
+			AI doesn’t give you a shortcut: It gives you a detour — unless you know how to guide it.	
 		</td>
  	</tr>
     </table>
