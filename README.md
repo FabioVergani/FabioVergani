@@ -71,7 +71,7 @@
 <sup>
 {
     compress: {
-	booleans: false,
+      booleans: false,
       global_defs: {
         DEBUG: true
       }
@@ -135,12 +135,12 @@ terser<sub>
 				</tr> 
 				<tr>
 					<td>
-						Code dependencies can be more tangled than they seem, and this complexity poses serious security risk.
+						AI doesn’t give you a shortcut: It gives you a detour — unless you know how to guide it.
 					</td>
 				</tr>
 				<tr>
 					<td>
-						AI doesn’t give you a shortcut: It gives you a detour — unless you know how to guide it.	
+						Code dependencies can be more tangled than they seem, and this complexity poses serious security risk.
 					</td>
 			 	</tr>
 			</table>
