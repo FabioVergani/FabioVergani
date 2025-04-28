@@ -100,8 +100,17 @@ terser<sub>
 <sup>/[ \t]*\/\*\*\s*\n([^*]*(\*[^/])?)*\*\//g</sup>
 </code></pre>
 		</td>
-		<td>
-			<!-- -->
+		<td rowspan="2">
+<sup>
+<pre>
+❌ Every functions needs a unit test.
+❌ More tests mean fewer bugs.
+❌ 100% coverage guarantee quality.<br>
+✅ Selective unit testing.
+✅ Integration tests.
+✅ Robust production monitoring.
+</pre>
+</sup>
 		</td>
 	</tr>
         <tr>
@@ -115,18 +124,6 @@ terser<sub>
 <a href="https://developer.chrome.com/blog/quickly-monitor-events-from-the-console-panel-2/">monitorEvents</a>(object [, events])
 </pre></sub>
             </td>
-	    <td>
-<sup>
-<pre>
-❌ Every functions needs a unit test.
-❌ More tests mean fewer bugs.
-❌ 100% coverage guarantee quality.<br>
-✅ Selective unit testing.
-✅ Integration tests.
-✅ Robust production monitoring.
-</pre>
-</sup>
-	    </td>
         </tr>
 	<tr>
 		<td align="center" colspan="3">
