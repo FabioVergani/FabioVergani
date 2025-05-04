@@ -102,7 +102,7 @@ terser<sub>
 		</td>
 		<td rowspan="2">
 <sup>
-<pre title="Il vero problema è che testiamo sempre nelle condizioni sbagliate. &#010;Facciamo prove di carico quando tutto è perfetto, stabile, pulito&#010;ed i pianeti sono allineati... ma nella realtà, le cose vanno male&#010;sempre nel modo più stupido ed imprevedibile possibile.">
+<pre title="Il vero problema è che testiamo sempre nelle condizioni sbagliate.&#010;&#010;Facciamo prove di carico quando tutto è perfetto, stabile, pulito&#010;ed i pianeti sono allineati... ma nella realtà, le cose vanno male&#010;sempre nel modo più stupido ed imprevedibile possibile.&#010;&#010;C’è una verità che tutti conoscono ma che pochi hanno il coraggio di urlare:&#010;i sistemi critici vengono testati per fallire in modo educato,&#010;non in modo realistico.">
 ❌ Every functions needs a unit test.
 ❌ More tests mean fewer bugs.
 ❌ 100% coverage guarantee quality.<br>
