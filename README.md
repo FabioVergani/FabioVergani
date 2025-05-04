@@ -102,14 +102,14 @@ terser<sub>
 		</td>
 		<td rowspan="2">
 <sup>
-<pre>
+<pre title="Il vero problema è che testiamo sempre nelle condizioni sbagliate. &#010;Facciamo prove di carico quando tutto è perfetto, stabile, pulito&#010;ed i pianeti sono allineati... ma nella realtà, le cose vanno male&#010;sempre nel modo più stupido ed imprevedibile possibile.">
 ❌ Every functions needs a unit test.
 ❌ More tests mean fewer bugs.
 ❌ 100% coverage guarantee quality.<br>
 ✅ Selective unit testing.
 ✅ Integration tests.
 ✅ Robust production monitoring.
-</pre>
+</pre>	
 </sup>
 		</td>
 	</tr>
