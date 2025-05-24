@@ -188,7 +188,8 @@ Specialization is for insects.
 </p>
 
 <p>
-It is necessary to choose between being mediocre at a few things, good at a few, or truly excellent at one or two.
+It is necessary to choose between being mediocre at a few things, good at a few, 
+or truly excellent at one or two.
 It is necessary, in any case, to choose, or life will choose for us anyway.
 <sub>Yukio Mishima</sub>
 </p>
