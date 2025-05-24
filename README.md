@@ -186,7 +186,13 @@ fight efficiently, die gallantly.
 Specialization is for insects.
 <sub>Robert A. Heinlein, <i>Starship Troopers</i> (1959)</sub>
 </p>
-	
+
+<p>
+It is necessary to choose between being mediocre at a few things, good at a few, or truly excellent at one or two.
+It is necessary, in any case, to choose, or life will choose for us anyway.
+<sub>Yukio Mishima</sub>
+</p>
+
 </td>
 </tr>
 </table>	
