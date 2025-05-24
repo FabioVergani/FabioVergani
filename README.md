@@ -154,8 +154,7 @@ terser<sub>
 <td>
 <p>
 If you think technology can solve your security problems,
-then you don't understand the problems
-and you don't understand the technology.
+then you don't understand the problems and you don't understand the technology.
 <sub>Bruce Schneier</sub>
 </p>
 
@@ -190,7 +189,8 @@ Specialization is for insects.
 <p>
 It is necessary to choose between being mediocre at a few things, good at a few, 
 or truly excellent at one or two.
-It is necessary, in any case, to choose, or life will choose for us anyway.
+It is necessary, in any case, to choose,
+or life will choose for us anyway.
 <sub>Yukio Mishima</sub>
 </p>
 
