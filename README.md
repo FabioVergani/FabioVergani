@@ -147,11 +147,8 @@ terser<sub>
 		</td>
 	</tr>
 	<tr>
-		<td align="center" colspan="3">
+		<td colspan="3">
 <pre>
-<table align="center">
-<tr>
-<td>
 <p>
 If you think technology can solve your security problems,
 then you don't understand the problems and you don't understand the technology.
@@ -187,16 +184,16 @@ Specialization is for insects.
 </p>
 
 <p>
-It is necessary to choose between being mediocre at a few things, good at a few, 
-or truly excellent at one or two.
-It is necessary, in any case, to choose,
-or life will choose for us anyway.
-<sub>Yukio Mishima</sub>
+Bokanovsky's Process is one of the major instruments of social stability!
+<sub>Aldous L. Huxley, <i>Brave New World</i> (1932)</sub>
 </p>
 
-</td>
-</tr>
-</table>	
+<p>
+It is necessary to choose between being mediocre at a few things,
+good at a few, or truly excellent at one or two.
+It is necessary, in any case, to choose, or life will choose for us anyway.
+<sub>Yukio Mishima</sub>
+</p>	
 </pre>	
 		</td>
 	</tr>
