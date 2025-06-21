@@ -134,7 +134,7 @@ terser<sub>
 					</td>
 				</tr> 
 				<tr>
-					<td>
+					<td title="Learn the fundamentals, build things, break things, fix it. 𝗧𝗵𝗲𝗿𝗲 𝗮𝗿𝗲 𝗻𝗼 𝘀𝗵𝗼𝗿𝘁𝗰𝘂𝘁𝘀">
 						AI doesn’t give you a shortcut: It gives you a detour — unless you know how to guide it.
 					</td>
 				</tr>
