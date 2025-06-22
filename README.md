@@ -130,7 +130,7 @@ terser<sub>
 			<table>
 				<tr>
 					<td>
-						Code never lies; comments sometimes do.
+						<a href="https://raw.githubusercontent.com/FabioVergani/FabioVergani/e6a40f4d822616189fd41f94070dc35c79e0fb6b/hardTruths.md">Code never lies;</a> comments sometimes do.
 					</td>
 				</tr> 
 				<tr>
