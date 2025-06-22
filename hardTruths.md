@@ -1,0 +1,21 @@
+### hard truths about software development:
+---
+- The database is always the bottleneck
+---
+- Users don't care about your architecture
+- Fix the root cause, not the symptom
+- Ship the smallest thing that works
+---
+- Code reviews spread knowledge, not judgment
+- Perfect code doesn't exist
+- Debug with fresh eyes
+---
+- Your estimates don't improve unless you retro
+- Your clever code will confuse future you
+- Every abstraction has a cost
+- Delete more than you add
+- Comments explain why, not what
+---
+- Name things like you're explaining to your mum
+- Dependencies are future headaches
+- Monitoring beats regression testing
