@@ -1,3 +1,4 @@
+<pre>
 Podcast, libri, interviste, blog.
 C’è un consenso trasversale: le competenze si insegnano, l’attitudine no.
 
@@ -28,3 +29,4 @@ Sulla carta.
 
 L'attitudine significa voglia di lavorare: serve ma insieme alle competenze.
 Tra le due preferisco un competente pigro che un incompetente volenteroso.
+</pre>
