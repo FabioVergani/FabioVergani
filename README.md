@@ -140,6 +140,11 @@ terser<sub>
 				</tr>
 				<tr>
 					<td>
+						Writing code is thinking: don’t outsource that.
+					</td>
+				</tr>
+				<tr>
+					<td>
 						Code dependencies can be more tangled than they seem, and this complexity poses serious security risk.
 					</td>
 			 	</tr>
