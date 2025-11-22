@@ -40,6 +40,21 @@
 				Micro-optimizations <i>without measurement</i> and correctness are worse than no optimization at all.
 			</td>
 		</tr>
+		<tr>
+				<td colspan="3">
+					<p>
+			<sup>
+<pre title="Il vero problema è che testiamo sempre nelle condizioni sbagliate.&#010;&#010;Facciamo prove di carico quando tutto è perfetto, stabile, pulito&#010;ed i pianeti sono allineati... ma nella realtà, le cose vanno male&#010;sempre nel modo più stupido ed imprevedibile possibile.&#010;&#010;C’è una verità che tutti conoscono ma che pochi hanno il coraggio di urlare:&#010;i sistemi critici vengono testati per fallire in modo educato,&#010;non in modo realistico.">
+❌ Every functions needs a unit test.
+❌ More tests mean fewer bugs.
+❌ 100% coverage guarantee quality.<br>
+✅ Selective unit testing.
+✅ Integration tests.
+✅ Robust production monitoring.
+</pre>	
+			</sup></p>
+		</td>
+		</tr>
         <tr>
             <td valign="top" width="33%" rowspan="3">
                 <br />
@@ -120,27 +135,15 @@ terser<sub>
             </td>
         </tr>
 	<tr>
-		<td>
-<pre><code>// <a href="https://jsdoc.app">jsdoc</a>
-<br>
-<sup>/[ \t]*\/\*\*\s*\n([^*]*(\*[^/])?)*\*\//g</sup>
-</code></pre>
-		</td>
-		<td rowspan="2">
-			<sup>
-<pre title="Il vero problema è che testiamo sempre nelle condizioni sbagliate.&#010;&#010;Facciamo prove di carico quando tutto è perfetto, stabile, pulito&#010;ed i pianeti sono allineati... ma nella realtà, le cose vanno male&#010;sempre nel modo più stupido ed imprevedibile possibile.&#010;&#010;C’è una verità che tutti conoscono ma che pochi hanno il coraggio di urlare:&#010;i sistemi critici vengono testati per fallire in modo educato,&#010;non in modo realistico.">
-❌ Every functions needs a unit test.
-❌ More tests mean fewer bugs.
-❌ 100% coverage guarantee quality.<br>
-✅ Selective unit testing.
-✅ Integration tests.
-✅ Robust production monitoring.
-</pre>	
-			</sup>
+		 <td colspan="2">	 
+			<sub>	
+				// <a href="https://jsdoc.app">jsdoc</a>
+				<pre>/[ \t]*\/\*\*\s*\n([^*]*(\*[^/])?)*\*\//g</pre>
+			</sub>
 		</td>
 	</tr>
         <tr>
-            <td>
+            <td colspan="2">
 				<sub>
 <pre>
 <a href="https://formulae.brew.sh/cask/chromium">brew</a> install <a href="https://www.chromium.org/chromium-projects/)">chromium</a> --no-quarantine
