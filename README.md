@@ -148,6 +148,11 @@ terser<sub>
 						Code dependencies can be more tangled than they seem, and this complexity poses serious security risk.
 					</td>
 			 	</tr>
+				<tr>
+					<td>
+						Micro-optimizations <i>without measurement</i> and correctness are worse than no optimization at all.
+					</td>
+			 	</tr>
 			</table>
 		</td>
 	</tr>
