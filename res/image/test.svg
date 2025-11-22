@@ -1,114 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <!-- Filtro completo di illuminazione realistica (luce bianca da sinistra-superiore) -->
-    <filter id="realLight" x="-100%" y="-100%" width="300%" height="300%">
-      <!-- Luce direzionale bianca 45°/-30° -->
-      <feDiffuseLighting in="SourceGraphic" result="diffuse" lighting-color="#ffffff">
-        <feDistantLight azimuth="45" elevation="60"/>
-      </feDiffuseLighting>
-      <feSpecularLighting in="SourceGraphic" result="specular" lighting-color="#ffffff" specularConstant="1.2" specularExponent="20">
-        <feDistantLight azimuth="45" elevation="60"/>
-      </feSpecularLighting>
-      <feComposite in="specular" in2="SourceGraphic" operator="in" result="spec"/>
-      <feComposite in="diffuse" in2="SourceGraphic" operator="over" result="lit"/>
-      <feComposite in="spec" in2="lit" operator="over" result="final"/>
-      <feMerge>
-        <feMergeNode in="final"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject x="0" y="0" width="500" height="500">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        * { margin:0; padding:0; }
+        html, body {
+          width: 100%; height: 100%;
+          background: radial-gradient(circle at center, #001122, #000000);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          perspective: 1200px;
+          perspective-origin: 50% 50%;
+        }
+        .scene {
+          width: 220px;
+          height: 220px;
+          position: relative;
+          transform-style: preserve-3d;
+          animation: spin 24s infinite linear;
+        }
+        .cube {
+          width: 100%;
+          height: 100%;
+          position: relative;
+          transform-style: preserve-3d;
+          transform: rotateX(-28deg) rotateY(-42deg);
+        }
+        .face {
+          position: absolute;
+          width: 220px;
+          height: 220px;
+          border: 3px solid #00ffff;
+          box-sizing: border-box;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font: bold 100px/1 Arial;
+          color: #ffffff;
+          text-shadow: 0 0 30px #00ffff;
+          backface-visibility: hidden;
+          box-shadow: 
+            inset 0 0 80px rgba(0,255,255,0.3),
+            0 0 60px rgba(0,255,255,0.5);
+        }
+        /* Illuminazione realistica: luce bianca da sinistra-superiore */
+        .front  { background: linear-gradient(135deg, #66eaff, #0088cc); transform: translateZ(110px); }
+        .back   { background: linear-gradient(135deg, #003366, #001122); transform: rotateY(180deg) translateZ(110px); }
+        .right  { background: linear-gradient(135deg, #44ccff, #006699); transform: rotateY(90deg) translateZ(110px); }
+        .left   { background: linear-gradient(135deg, #004477, #002244); transform: rotateY(-90deg) translateZ(110px); }
+        .top    { background: linear-gradient(135deg, #88f8ff, #00bbff); transform: rotateX(90deg) translateZ(110px); }
+        .bottom { background: linear-gradient(135deg, #002233, #000f1f); transform: rotateX(-90deg) translateZ(110px); }
 
-    <!-- Gradienti personalizzati per ogni faccia (coerenti con la luce) -->
-    <linearGradient id="frontGrad">
-      <stop offset="0%" stop-color="#66e0ff"/>
-      <stop offset="100%" stop-color="#0088cc"/>
-    </linearGradient>
-    <linearGradient id="backGrad">
-      <stop offset="0%" stop-color="#004466"/>
-      <stop offset="100%" stop-color="#002233"/>
-    </linearGradient>
-    <linearGradient id="rightGrad">
-      <stop offset="0%" stop-color="#44ccff"/>
-      <stop offset="100%" stop-color="#0077aa"/>
-    </linearGradient>
-    <linearGradient id="leftGrad">
-      <stop offset="0%" stop-color="#0088cc"/>
-      <stop offset="100%" stop-color="#003366"/>
-    </linearGradient>
-    <linearGradient id="topGrad">
-      <stop offset="0%" stop-color="#88f0ff"/>
-      <stop offset="100%" stop-color="#00aaff"/>
-    </linearGradient>
-    <linearGradient id="bottomGrad">
-      <stop offset="0%" stop-color="#003366"/>
-      <stop offset="100%" stop-color="#001122"/>
-    </linearGradient>
+        /* Specular highlight simulato */
+        .top::before    { content:''; position:absolute; inset:20px 20px 100px 20px; background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.4), transparent 60%); }
+        .front::before  { content:''; position:absolute; inset:30px 30px 120px 30px; background: radial-gradient(circle at 20% 20%, rgba(255,255,255,0.3), transparent 70%); }
+        .right::before  { content:''; position:absolute; inset:40px 40px 140px 40px; background: radial-gradient(circle at 10% 10%, rgba(255,255,255,0.25), transparent); }
 
-    <!-- Stile testo -->
-    <style type="text/css"><![CDATA[
-      text {
-        font-family: Arial Black, Arial, sans-serif;
-        font-size: 90px;
-        font-weight: 900;
-        fill: #ffffff;
-        text-anchor: middle;
-        dominant-baseline: central;
-        filter: drop-shadow(0 0 15px #00ffff);
-      }
-      @keyframes rotate {
-        from { transform: rotateX(-30deg) rotateY(-45deg); }
-        to   { transform: rotateX(-30deg) rotateY(-45deg) rotateY(360deg) rotateX(360deg); }
-      }
-      #cube { animation: rotate 20s infinite linear; }
-    ]]></style>
-  </defs>
+        @keyframes spin {
+          from { transform: rotateY(0deg) rotateX(0deg); }
+          to   { transform: rotateY(360deg) rotateX(360deg); }
+        }
+      </style>
 
-  <!-- Contenitore 3D -->
-  <g style="transform: perspective(1000px); transform-style: preserve-3d;">
-    <g id="cube" transform="translate(200,200)">
-      
-      <!-- Front (ben illuminata) -->
-      <g transform="translateZ(100)">
-        <rect x="-100" y="-100" width="200" height="200" fill="url(#frontGrad)" stroke="#00ffff" stroke-width="4" filter="url(#realLight)"/>
-        <text y="12">1</text>
-      </g>
+      <div class="scene">
+        <div class="cube">
+          <div class="face front">1</div>
+          <div class="face back">2</div>
+          <div class="face right">3</div>
+          <div class="face left">4</div>
+          <div class="face top">5</div>
+          <div class="face bottom">6</div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
 
-      <!-- Back (molto in ombra) -->
-      <g transform="rotateY(180deg) translateZ(100)">
-        <rect x="-100" y="-100" width="200" height="200" fill="url(#backGrad)" stroke="#00ffff" stroke-width="4" opacity="0.95" filter="url(#realLight)"/>
-        <text y="12">2</text>
-      </g>
-
-      <!-- Right (illuminata lateralmente) -->
-      <g transform="rotateY(90deg) translateZ(100)">
-        <rect x="-100" y="-100" width="200" height="200" fill="url(#rightGrad)" stroke="#00ffff" stroke-width="4" filter="url(#realLight)"/>
-        <text y="12">3</text>
-      </g>
-
-      <!-- Left (in ombra) -->
-      <g transform="rotateY(-90deg) translateZ(100)">
-        <rect x="-100" y="-100" width="200" height="200" fill="url(#leftGrad)" stroke="#00ffff" stroke-width="4" filter="url(#realLight)"/>
-        <text y="12">4</text>
-      </g>
-
-      <!-- Top (la più illuminata) -->
-      <g transform="rotateX(90deg) translateZ(100)">
-        <rect x="-100" y="-100" width="200" height="200" fill="url(#topGrad)" stroke="#00ffff" stroke-width="4" filter="url(#realLight)"/>
-        <text y="12">5</text>
-      </g>
-
-      <!-- Bottom (quasi nera) -->
-      <g transform="rotateX(-90deg) translateZ(100)">
-        <rect x="-100" y="-100" width="200" height="200" fill="url(#bottomGrad)" stroke="#0088aa" stroke-width="4" filter="url(#realLight)"/>
-        <text y="12" opacity="0.9">6</text>
-      </g>
-    </g>
-  </g>
-
-  <!-- Rim light ciano pulsante -->
-  <circle cx="200" cy="200" r="185" fill="none" stroke="#00ffff" stroke-width="30" opacity="0.35">
-    <animate attributeName="opacity" values="0.25;0.55;0.25" dur="7s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="180;195;180" dur="7s" repeatCount="indefinite"/>
+  <!-- Rim light ciano pulsante (opzionale, puro SVG) -->
+  <circle cx="250" cy="250" r="180" fill="none" stroke="#00ffff" stroke-width="35" opacity="0.4">
+    <animate attributeName="r" values="175;205;175" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="9s" repeatCount="indefinite"/>
   </circle>
 </svg>
