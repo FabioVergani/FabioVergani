@@ -1,80 +1,100 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200">
+  <rect width="200" height="200" fill="#e9e9e9"/>
   <foreignObject width="200" height="200">
     <div xmlns="http://www.w3.org/1999/xhtml" style="width:200px;height:200px;display:flex;align-items:center;justify-content:center;perspective:500px;overflow:hidden">
       <style>
+        /* Base */
         div {
           position: absolute;
           transform-style: preserve-3d
         }
+        
+        /* Animation Target */
         .a {
           transform: scale(.25) rotateX(-45deg) rotateY(-45deg);
           animation: global-spin 10s linear infinite;
-          &>div {
-            animation: r 2s ease-in-out infinite;
-            &:first-child {
-              animation-name: ri;
-              .c {
-                &:nth-child(n) {transform: translate3d(-4em,-4em,0)}
-                &:nth-child(2) {transform: translate3d(-4em,0,-4em)}
-                &:nth-child(3) {transform: translate3d(-4em,0,0)}
-                &:nth-child(4) {transform: translate3d(-4em,0,4em)}
-                &:nth-child(5) {transform: translate3d(-4em,4em,0)}
-                &:nth-child(6) {transform: translate3d(0,-4em,-4em)}
-                &:nth-child(7) {transform: translate3d(0,-4em,0)}
-                &:nth-child(8) {transform: translate3d(0,-4em,4em)}
-                &:nth-child(9) {transform: translate3d(0,0,-4em)}
-                &:nth-child(10) {transform: translate3d(0,0,0)}
-                &:nth-child(11) {transform: translate3d(0,0,4em)}
-                &:nth-child(12) {transform: translate3d(0,4em,-4em)}
-                &:nth-child(13) {transform: translate3d(0,4em,0)}
-                &:nth-child(14) {transform: translate3d(0,4em,4em)}
-                &:nth-child(15) {transform: translate3d(4em,-4em,0)}
-                &:nth-child(16) {transform: translate3d(4em,0,-4em)}
-                &:nth-child(17) {transform: translate3d(4em,0,0)}
-                &:nth-child(18) {transform: translate3d(4em,0,4em)}
-                &:nth-child(19) {transform: translate3d(4em,4em,0)}
-              }
-            }
-            &:last-child {
-              animation-name: ro;
-              .p {
-                &:nth-child(1) {transform: scale3d(1,1,1) translate3d(4em,4em,4em)}
-                &:nth-child(2) {transform: scale3d(1,1,-1) translate3d(4em,4em,4em)}
-                &:nth-child(3) {transform: scale3d(1,-1,1) translate3d(4em,4em,4em)}
-                &:nth-child(4) {transform: scale3d(1,-1,-1) translate3d(4em,4em,4em)}
-                &:nth-child(5) {transform: scale3d(-1,1,1) translate3d(4em,4em,4em)}
-                &:nth-child(6) {transform: scale3d(-1,1,-1) translate3d(4em,4em,4em)}
-                &:nth-child(7) {transform: scale3d(-1,-1,1) translate3d(4em,4em,4em)}
-                &:nth-child(8) {transform: scale3d(-1,-1,-1) translate3d(4em,4em,4em)}
-                .c {
-                  animation: m 2s ease-out infinite;
-                }
-              }
-            }
-          }
         }
+
+        /* Cubes Container */
+        .a>div {
+          animation: r 2s ease-in-out infinite;
+        }
+        
+        /* Inner Cubes Group */
+        .a>div:first-child {
+          animation-name: ri;
+        }
+
+        /* Outer Cubes Group */
+        .a>div:last-child {
+          animation-name: ro;
+        }
+
+        /* Cube Face Styling (.c > div) */
         .c > div {
           margin: -2em;
           width: 4em;
           height: 4em;
           backface-visibility: hidden;
           background: #F0F0F0;
-          &:nth-child(2n) {
-            background: #E0E0E0;
-          }
-          &:nth-child(n+5) {
-            background: #FFFFFF;
-          }
-          &:nth-child(1) {transform: rotateY(0) translateZ(2em)}
-          &:nth-child(2) {transform: rotateY(90deg) translateZ(2em)}
-          &:nth-child(3) {transform: rotateY(180deg) translateZ(2em)}
-          &:nth-child(4) {transform: rotateY(270deg) translateZ(2em)}
-          &:nth-child(5) {transform: rotateX(90deg) translateZ(2em)}
-          &:nth-child(6) {transform: rotateX(-90deg) translateZ(2em)}
         }
+        
+        /* Colori Solidi (Simulazione Ombreggiatura) */
+        .c > div:nth-child(2n) {
+          background: #E0E0E0;
+        }
+        .c > div:nth-child(n+5) {
+          background: #FFFFFF;
+        }
+
+        /* Posizionamento dei 6 lati del cubo (Standard CSS) */
+        .c > div:nth-child(1) {transform: rotateY(0) translateZ(2em)}
+        .c > div:nth-child(2) {transform: rotateY(90deg) translateZ(2em)}
+        .c > div:nth-child(3) {transform: rotateY(180deg) translateZ(2em)}
+        .c > div:nth-child(4) {transform: rotateY(270deg) translateZ(2em)}
+        .c > div:nth-child(5) {transform: rotateX(90deg) translateZ(2em)}
+        .c > div:nth-child(6) {transform: rotateX(-90deg) translateZ(2em)}
+
+        /* Posizionamento dei cubi interni (Standard CSS) */
+        .a>div:first-child .c:nth-child(n) {transform: translate3d(-4em,-4em,0)}
+        .a>div:first-child .c:nth-child(2) {transform: translate3d(-4em,0,-4em)}
+        .a>div:first-child .c:nth-child(3) {transform: translate3d(-4em,0,0)}
+        .a>div:first-child .c:nth-child(4) {transform: translate3d(-4em,0,4em)}
+        .a>div:first-child .c:nth-child(5) {transform: translate3d(-4em,4em,0)}
+        .a>div:first-child .c:nth-child(6) {transform: translate3d(0,-4em,-4em)}
+        .a>div:first-child .c:nth-child(7) {transform: translate3d(0,-4em,0)}
+        .a>div:first-child .c:nth-child(8) {transform: translate3d(0,-4em,4em)}
+        .a>div:first-child .c:nth-child(9) {transform: translate3d(0,0,-4em)}
+        .a>div:first-child .c:nth-child(10) {transform: translate3d(0,0,0)}
+        .a>div:first-child .c:nth-child(11) {transform: translate3d(0,0,4em)}
+        .a>div:first-child .c:nth-child(12) {transform: translate3d(0,4em,-4em)}
+        .a>div:first-child .c:nth-child(13) {transform: translate3d(0,4em,0)}
+        .a>div:first-child .c:nth-child(14) {transform: translate3d(0,4em,4em)}
+        .a>div:first-child .c:nth-child(15) {transform: translate3d(4em,-4em,0)}
+        .a>div:first-child .c:nth-child(16) {transform: translate3d(4em,0,-4em)}
+        .a>div:first-child .c:nth-child(17) {transform: translate3d(4em,0,0)}
+        .a>div:first-child .c:nth-child(18) {transform: translate3d(4em,0,4em)}
+        .a>div:first-child .c:nth-child(19) {transform: translate3d(4em,4em,0)}
+
+        /* Animazione dei pezzi esterni (Standard CSS) */
+        .a>div:last-child .p .c {
+          animation: m 2s ease-out infinite;
+        }
+
+        /* Posizionamento dei cubi esterni (Standard CSS) */
+        .a>div:last-child .p:nth-child(1) {transform: scale3d(1,1,1) translate3d(4em,4em,4em)}
+        .a>div:last-child .p:nth-child(2) {transform: scale3d(1,1,-1) translate3d(4em,4em,4em)}
+        .a>div:last-child .p:nth-child(3) {transform: scale3d(1,-1,1) translate3d(4em,4em,4em)}
+        .a>div:last-child .p:nth-child(4) {transform: scale3d(1,-1,-1) translate3d(4em,4em,4em)}
+        .a>div:last-child .p:nth-child(5) {transform: scale3d(-1,1,1) translate3d(4em,4em,4em)}
+        .a>div:last-child .p:nth-child(6) {transform: scale3d(-1,1,-1) translate3d(4em,4em,4em)}
+        .a>div:last-child .p:nth-child(7) {transform: scale3d(-1,-1,1) translate3d(4em,4em,4em)}
+        .a>div:last-child .p:nth-child(8) {transform: scale3d(-1,-1,-1) translate3d(4em,4em,4em)}
+        
+        /* Keyframes */
         @keyframes global-spin {
           from { transform: scale(.25) rotateX(-45deg) rotateY(-45deg) }
-          to { transform: scale(.25) rotateX(-45deg) rotateY(315deg) } /* -45deg + 360deg = 315deg */
+          to { transform: scale(.25) rotateX(-45deg) rotateY(315deg) }
         }
         @keyframes ri {
           0%, 20% {transform: rotateY(-.5turn)} 
