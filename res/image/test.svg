@@ -8,6 +8,7 @@
         }
         .a {
           transform: scale(.25) rotateX(-45deg) rotateY(-45deg);
+          animation: global-spin 10s linear infinite;
           &>div {
             animation: r 2s ease-in-out infinite;
             &:first-child {
@@ -64,13 +65,16 @@
           &:nth-child(n+5) {
             background: #FFFFFF;
           }
-  
           &:nth-child(1) {transform: rotateY(0) translateZ(2em)}
           &:nth-child(2) {transform: rotateY(90deg) translateZ(2em)}
           &:nth-child(3) {transform: rotateY(180deg) translateZ(2em)}
           &:nth-child(4) {transform: rotateY(270deg) translateZ(2em)}
           &:nth-child(5) {transform: rotateX(90deg) translateZ(2em)}
           &:nth-child(6) {transform: rotateX(-90deg) translateZ(2em)}
+        }
+        @keyframes global-spin {
+          from { transform: scale(.25) rotateX(-45deg) rotateY(-45deg) }
+          to { transform: scale(.25) rotateX(-45deg) rotateY(315deg) } /* -45deg + 360deg = 315deg */
         }
         @keyframes ri {
           0%, 20% {transform: rotateY(-.5turn)} 
