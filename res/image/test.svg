@@ -1,183 +1,114 @@
-    <svg width="230" height="230" viewBox="0 0 230 230" xmlns="http://www.w3.org/2000/svg">
-        <foreignObject x="0" y="0" width="230" height="230">
-            <canvas id="canvas3d" width="230" height="230" xmlns="http://www.w3.org/1999/xhtml"></canvas>
-            
-            <script xmlns="http://www.w3.org/1999/xhtml">
-                (function() {
-                    'use strict';
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <!-- Filtro completo di illuminazione realistica (luce bianca da sinistra-superiore) -->
+    <filter id="realLight" x="-100%" y="-100%" width="300%" height="300%">
+      <!-- Luce direzionale bianca 45°/-30° -->
+      <feDiffuseLighting in="SourceGraphic" result="diffuse" lighting-color="#ffffff">
+        <feDistantLight azimuth="45" elevation="60"/>
+      </feDiffuseLighting>
+      <feSpecularLighting in="SourceGraphic" result="specular" lighting-color="#ffffff" specularConstant="1.2" specularExponent="20">
+        <feDistantLight azimuth="45" elevation="60"/>
+      </feSpecularLighting>
+      <feComposite in="specular" in2="SourceGraphic" operator="in" result="spec"/>
+      <feComposite in="diffuse" in2="SourceGraphic" operator="over" result="lit"/>
+      <feComposite in="spec" in2="lit" operator="over" result="final"/>
+      <feMerge>
+        <feMergeNode in="final"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
-                    const cvs = document.getElementById('canvas3d');
-                    // Yoda check
-                    if (null === cvs) return;
+    <!-- Gradienti personalizzati per ogni faccia (coerenti con la luce) -->
+    <linearGradient id="frontGrad">
+      <stop offset="0%" stop-color="#66e0ff"/>
+      <stop offset="100%" stop-color="#0088cc"/>
+    </linearGradient>
+    <linearGradient id="backGrad">
+      <stop offset="0%" stop-color="#004466"/>
+      <stop offset="100%" stop-color="#002233"/>
+    </linearGradient>
+    <linearGradient id="rightGrad">
+      <stop offset="0%" stop-color="#44ccff"/>
+      <stop offset="100%" stop-color="#0077aa"/>
+    </linearGradient>
+    <linearGradient id="leftGrad">
+      <stop offset="0%" stop-color="#0088cc"/>
+      <stop offset="100%" stop-color="#003366"/>
+    </linearGradient>
+    <linearGradient id="topGrad">
+      <stop offset="0%" stop-color="#88f0ff"/>
+      <stop offset="100%" stop-color="#00aaff"/>
+    </linearGradient>
+    <linearGradient id="bottomGrad">
+      <stop offset="0%" stop-color="#003366"/>
+      <stop offset="100%" stop-color="#001122"/>
+    </linearGradient>
 
-                    // V8 Optimization: Alpha false for compositor efficiency
-                    const ctx = cvs.getContext('2d', { alpha: false });
-                    
-                    // Dimensions
-                    const w = 230;
-                    const h = 230;
-                    const cx = 115; // w / 2
-                    const cy = 115; // h / 2
-                    
-                    // Rendering config
-                    ctx.strokeStyle = '#000000';
-                    ctx.lineWidth = 2;
-                    ctx.lineCap = 'round';
-                    ctx.lineJoin = 'round';
+    <!-- Stile testo -->
+    <style type="text/css"><![CDATA[
+      text {
+        font-family: Arial Black, Arial, sans-serif;
+        font-size: 90px;
+        font-weight: 900;
+        fill: #ffffff;
+        text-anchor: middle;
+        dominant-baseline: central;
+        filter: drop-shadow(0 0 15px #00ffff);
+      }
+      @keyframes rotate {
+        from { transform: rotateX(-30deg) rotateY(-45deg); }
+        to   { transform: rotateX(-30deg) rotateY(-45deg) rotateY(360deg) rotateX(360deg); }
+      }
+      #cube { animation: rotate 20s infinite linear; }
+    ]]></style>
+  </defs>
 
-                    // --- DATA DEFINITION (Float32Array for V8) ---
-                    // 8 vertices (x, y, z)
-                    const vertices = new Float32Array([
-                        -1, -1, -1,  1, -1, -1,  1,  1, -1, -1,  1, -1,
-                        -1, -1,  1,  1, -1,  1,  1,  1,  1, -1,  1,  1
-                    ]);
+  <!-- Contenitore 3D -->
+  <g style="transform: perspective(1000px); transform-style: preserve-3d;">
+    <g id="cube" transform="translate(200,200)">
+      
+      <!-- Front (ben illuminata) -->
+      <g transform="translateZ(100)">
+        <rect x="-100" y="-100" width="200" height="200" fill="url(#frontGrad)" stroke="#00ffff" stroke-width="4" filter="url(#realLight)"/>
+        <text y="12">1</text>
+      </g>
 
-                    // Edges indices (Uint8Array for memory locality)
-                    const edges = new Uint8Array([
-                        0,1, 1,2, 2,3, 3,0,
-                        4,5, 5,6, 6,7, 7,4,
-                        0,4, 1,5, 2,6, 3,7
-                    ]);
+      <!-- Back (molto in ombra) -->
+      <g transform="rotateY(180deg) translateZ(100)">
+        <rect x="-100" y="-100" width="200" height="200" fill="url(#backGrad)" stroke="#00ffff" stroke-width="4" opacity="0.95" filter="url(#realLight)"/>
+        <text y="12">2</text>
+      </g>
 
-                    // Projection buffer
-                    const projected = new Float32Array(16);
+      <!-- Right (illuminata lateralmente) -->
+      <g transform="rotateY(90deg) translateZ(100)">
+        <rect x="-100" y="-100" width="200" height="200" fill="url(#rightGrad)" stroke="#00ffff" stroke-width="4" filter="url(#realLight)"/>
+        <text y="12">3</text>
+      </g>
 
-                    // --- STATE & PHYSICS ---
-                    let angleX = 0.0;
-                    let angleY = 0.0;
-                    
-                    // Interaction state
-                    let isDragging = false;
-                    let lastMouseX = 0;
-                    let lastMouseY = 0;
-                    let velocityX = 0.005; // Initial spin
-                    let velocityY = 0.005; // Initial spin
-                    
-                    const FRICTION = 0.95;
-                    const SENSITIVITY = 0.005;
-                    const FL = 4; // Focal Length
+      <!-- Left (in ombra) -->
+      <g transform="rotateY(-90deg) translateZ(100)">
+        <rect x="-100" y="-100" width="200" height="200" fill="url(#leftGrad)" stroke="#00ffff" stroke-width="4" filter="url(#realLight)"/>
+        <text y="12">4</text>
+      </g>
 
-                    // --- EVENT HANDLERS ---
-                    
-                    // Start Drag
-                    cvs.addEventListener('mousedown', function(e) {
-                        isDragging = true;
-                        lastMouseX = e.clientX;
-                        lastMouseY = e.clientY;
-                        // Stop inertia immediately on grab
-                        velocityX = 0.0;
-                        velocityY = 0.0;
-                    });
+      <!-- Top (la più illuminata) -->
+      <g transform="rotateX(90deg) translateZ(100)">
+        <rect x="-100" y="-100" width="200" height="200" fill="url(#topGrad)" stroke="#00ffff" stroke-width="4" filter="url(#realLight)"/>
+        <text y="12">5</text>
+      </g>
 
-                    // Dragging
-                    window.addEventListener('mousemove', function(e) {
-                        // Yoda check
-                        if (false === isDragging) return;
+      <!-- Bottom (quasi nera) -->
+      <g transform="rotateX(-90deg) translateZ(100)">
+        <rect x="-100" y="-100" width="200" height="200" fill="url(#bottomGrad)" stroke="#0088aa" stroke-width="4" filter="url(#realLight)"/>
+        <text y="12" opacity="0.9">6</text>
+      </g>
+    </g>
+  </g>
 
-                        const currentX = e.clientX;
-                        const currentY = e.clientY;
-
-                        const deltaX = currentX - lastMouseX;
-                        const deltaY = currentY - lastMouseY;
-
-                        // Update angles based on movement
-                        angleY += deltaX * SENSITIVITY;
-                        angleX += deltaY * SENSITIVITY;
-
-                        // Store velocity
-                        velocityX = deltaX * SENSITIVITY;
-                        velocityY = deltaY * SENSITIVITY;
-
-                        lastMouseX = currentX;
-                        lastMouseY = currentY;
-                    });
-
-                    // Stop Drag
-                    window.addEventListener('mouseup', function() {
-                        isDragging = false;
-                    });
-
-                    // --- RENDER LOOP VARS (Hoisted) ---
-                    let i = 0;
-                    let x = 0.0, y = 0.0, z = 0.0;
-                    let rotX = 0.0, rotY = 0.0, rotZ = 0.0;
-                    let cosX = 0.0, sinX = 0.0;
-                    let cosY = 0.0, sinY = 0.0;
-                    let scale = 0.0;
-                    let p1 = 0, p2 = 0;
-                    let px1 = 0.0, py1 = 0.0, px2 = 0.0, py2 = 0.0;
-                    let idx = 0;
-
-                    // --- MAIN LOOP (Inlined) ---
-                    const render = function() {
-                        // Clear canvas
-                        ctx.fillStyle = '#ffffff';
-                        ctx.fillRect(0, 0, w, h);
-
-                        // Apply Inertia
-                        if (false === isDragging) {
-                            angleY += velocityX;
-                            angleX += velocityY;
-                            
-                            // Apply friction
-                            velocityX *= FRICTION;
-                            velocityY *= FRICTION;
-                        }
-
-                        // Precalc trig
-                        cosX = Math.cos(angleX);
-                        sinX = Math.sin(angleX);
-                        cosY = Math.cos(angleY);
-                        sinY = Math.sin(angleY);
-
-                        // 1. TRANSFORMATION LOOP
-                        for (i = 0; 24 > i; i += 3) {
-                            x = vertices[i];
-                            y = vertices[i + 1];
-                            z = vertices[i + 2];
-
-                            // Rotate Y
-                            rotX = x * cosY - z * sinY;
-                            rotZ = z * cosY + x * sinY;
-
-                            // Rotate X
-                            rotY = y * cosX - rotZ * sinX;
-                            z = rotZ * cosX + y * sinX;
-
-                            // Project
-                            // Scaling factor reduced to 210 to strictly fit within 200px bounds
-                            // Formula: (210 / (FL - z)) ensures diameter < 200px even at max z
-                            scale = 210 / (FL - z); 
-                            
-                            // Index calc: (i/3)*2 using bitwise
-                            idx = (i / 3) << 1;
-
-                            projected[idx] = cx + rotX * scale;
-                            projected[idx + 1] = cy + rotY * scale;
-                        }
-
-                        // 2. DRAW LOOP
-                        ctx.beginPath();
-                        for (i = 0; 24 > i; i += 2) {
-                            p1 = edges[i];
-                            p2 = edges[i + 1];
-
-                            px1 = projected[p1 << 1];
-                            py1 = projected[(p1 << 1) + 1];
-                            px2 = projected[p2 << 1];
-                            py2 = projected[(p2 << 1) + 1];
-
-                            ctx.moveTo(px1, py1);
-                            ctx.lineTo(px2, py2);
-                        }
-                        ctx.stroke();
-
-                        requestAnimationFrame(render);
-                    };
-
-                    requestAnimationFrame(render);
-
-                })();
-            </script>
-        </foreignObject>
-    </svg>
+  <!-- Rim light ciano pulsante -->
+  <circle cx="200" cy="200" r="185" fill="none" stroke="#00ffff" stroke-width="30" opacity="0.35">
+    <animate attributeName="opacity" values="0.25;0.55;0.25" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="180;195;180" dur="7s" repeatCount="indefinite"/>
+  </circle>
+</svg>
