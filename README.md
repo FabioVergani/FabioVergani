@@ -117,6 +117,7 @@
         DEBUG: true
       }
     },
+	toplevel: true,
     mangle: false,
     output: {
       beautify: true,
@@ -134,14 +135,18 @@ terser<sub>
 </pre>
             </td>
         </tr>
-	<tr>
-		 <td colspan="2">	 
-			<sub>	
-				// <a href="https://jsdoc.app">jsdoc</a>
-				<pre>/[ \t]*\/\*\*\s*\n([^*]*(\*[^/])?)*\*\//g</pre>
-			</sub>
-		</td>
-	</tr>
+		<tr>
+			 <td>	 
+				<sub>
+					<pre><a href="https://lebab.github.io">lebab</a></pre>
+				</sub>
+			</td>
+			<td>	 
+				<sub>
+					<pre>/[ \t]*\/\*\*\s*\n([^*]*(\*[^/])?)*\*\//g // <a href="https://jsdoc.app">jsdoc</a></pre>
+				</sub>
+			</td>
+		</tr>
         <tr>
             <td colspan="2">
 				<sub>
