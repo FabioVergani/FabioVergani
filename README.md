@@ -94,6 +94,8 @@
   "bracketSpacing": true,
   "arrowParens": "avoid",
   "proseWrap": "preserve",
+  "doctypeHtml": false,
+  "htmlWhitespaceSensitivity": "css",
   "overrides": [{
     "files": "*.css",
     "options": {
