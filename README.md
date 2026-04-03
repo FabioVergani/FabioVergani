@@ -85,25 +85,33 @@
 		    <pre><code>// <a href="https://prettier.io/docs/en/configuration.html">.prettierrc</a>
 <sup>
 {
-  "printWidth": 80,
-  "tabWidth": 2,
-  "useTabs": true,
-  "semi": true,
-  "singleQuote": true,
-  "trailingComma": "none",
-  "bracketSpacing": true,
-  "arrowParens": "avoid",
-  "proseWrap": "preserve",
-  "doctypeHtml": false,
-  "htmlWhitespaceSensitivity": "css",
-  "overrides": [{
-    "files": "*.css",
-    "options": {
-      "singleQuote": false,
-      "useTabs": true,
-      "tabWidth": 4
-    }
-  }]
+ "printWidth": 80,
+ "tabWidth": 2,
+ "useTabs": true,
+ "semi": true,
+ "singleQuote": true,
+ "trailingComma": "none",
+ "bracketSpacing": true,
+ "arrowParens": "avoid",
+ "proseWrap": "preserve",
+ "doctypeHtml": false,
+ "htmlWhitespaceSensitivity": "css",
+ "overrides": [
+  {
+   "files": "*.css",
+   "options": {
+    "singleQuote": false,
+    "useTabs": true,
+    "tabWidth": 4
+   }
+  },
+  {
+   "files": "*.svg",
+   "options": {
+    "parser": "html"
+   }
+  }
+ ]
 }</sup></code></pre>
 <pre>
 // <a href="https://prettier.io/playground">prettier</a>-ignore
