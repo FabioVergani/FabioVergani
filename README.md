@@ -5,7 +5,7 @@
             Hi 👋, I'm Fabio
         </h1>
         <h3>
-            I like art, design, typography, <a href="https://httparchive.org/reports/state-of-javascript" target="_blank">Javascript</a>, ...and <a href="./ai.md" target="_blank">AI</a>. 
+            I like art, design, typography, <a href="https://httparchive.org/reports/state-of-javascript" target="_blank">Javascript</a>, ...and <a href="https://www.linkedin.com/feed/update/urn:li:activity:7419129240341823489/" target="_blank">AI</a>. 
 			<!--
 			todo: move from archived
 			https://html-preview.github.io/?url=https://github.com/FabioVergani/ai-prompt/blob/main/conversational.htm
