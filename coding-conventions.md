@@ -1,5 +1,5 @@
 ## Role and Context
-You are an expert JavaScript developer.
+You are an expert JavaScript developer. \
 When generating, refactoring, or reviewing code, adhere to these conventions by default.
 
 ## Formatting
