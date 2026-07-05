@@ -65,7 +65,11 @@
                 <div align="center">
                     <p>
                         <a href="./res/memes/programming/worst-code-ever-run.jpg">
-                            <img width="208" height"264" title="So true." src="./res/memes/programming/why.png">
+                            <img 
+								width="208" 
+								height"264" 
+							    src="./res/memes/programming/why.png"
+							>
                         </a>
                     </p>
                     <p>
@@ -79,8 +83,16 @@
                         </a>
                     </p>
 		    <p>
-        		<b>#learningisfun</b>&ensp;
-        		<b><mark><a href="./frontend.md">#frontend</a></mark></b>  	    
+        		<b title="A peaceful man must still know violence,&#13;or his peace belongs to whoever threatens it.">
+					#learningisfun
+				</b>&ensp;
+        		<b>
+					<mark>
+						<a href="./frontend.md">
+							#frontend
+						</a>
+					</mark>
+				</b>  	    
 		    </p>
 		    <img width="208" src="./res/memes/programming/calculatorWasOnRadian.png">
                 </div>
