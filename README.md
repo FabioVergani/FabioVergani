@@ -9,8 +9,8 @@
         </h3>
     </header>
   <p>
-	  <img width="90" alt="MDN" src="./res/image/JavaScript.svg">
-	  <img width="52" alt="" src="./res/image/AIcode.svg">
+	  <a href="https://developer.mozilla.org/en-US/search?q="><img width="90" alt="MDN" src="./res/image/JavaScript.svg"></a>
+	  <a href="https://raw.githubusercontent.com/FabioVergani/FabioVergani/"><img width="52" alt="" src="./res/image/AIcode.svg"></a>
   </p>
     <table>
 		<tr>
