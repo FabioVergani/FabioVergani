@@ -5,18 +5,13 @@
             Hi 👋, I'm Fabio
         </h1>
         <h3>
-            I like art, design, typography, <a href="https://httparchive.org/reports/state-of-javascript" target="_blank">Javascript</a>, ...and <a href="https://www.linkedin.com/feed/update/urn:li:activity:7419129240341823489/" target="_blank">AI</a>. 
-			<!--
-			todo: move from archived
-			https://html-preview.github.io/?url=https://github.com/FabioVergani/ai-prompt/blob/main/conversational.htm
-			-->
+            I like art, design, typography, <a href="https://httparchive.org/reports/state-of-javascript" target="_blank">Javascript</a>, ...and <a href="https://www.linkedin.com/feed/update/urn:li:activity:7419129240341823489/" target="_blank">AI</a>.
         </h3>
     </header>
-    <p>
-        <a href="https://developer.mozilla.org/en-US/search?q="><!-- ?q=FabioVergani -->
-            <img width="90" alt="MDN" src="./res/image/JavaScript.svg">
-        </a>
-    </p>
+  <p>
+	  <img width="90" alt="MDN" src="./res/image/JavaScript.svg">
+	  <img width="52" alt="" src="./res/image/AIcode.svg">
+  </p>
     <table>
 		<tr>
 			<td colspan="3">
