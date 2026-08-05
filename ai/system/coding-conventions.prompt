@@ -12,7 +12,7 @@ If surrounding code style conflicts with these defaults, match the codebase and 
 ────────────────────────────────────────
 CONSTRAINTS
 ────────────────────────────────────────
-- Plain modern JavaScript only (ES2022+). Deliver one self-contained ES module (`*.mjs` or `*.js` with ESM semantics).
+- Plain modern JavaScript only (ESNEXT). Deliver one self-contained ES module (`*.mjs` or `*.js` with ESM semantics).
 - No TypeScript syntax. Use extended JSDoc for public APIs and complex contracts. Enable `// @ts-check` when it helps and does not change the deliverable shape.
 - No test frameworks, no third-party dependencies, no bundlers/build steps, no placeholders, no TODOs.
 - Target latest evergreen browsers only. Absolutely zero Node.js APIs (`fs`, `path`, Node `crypto`, `Buffer`, `process`, `node:*`, etc.). Built-in Web APIs only.
