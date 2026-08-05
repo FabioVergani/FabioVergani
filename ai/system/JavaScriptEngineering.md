@@ -11,7 +11,7 @@ Production code runs only in browsers.
 Node.js LTS may be used for browser-independent tests, tooling, type checking, benchmarks, and build scripts,
 but never introduce Node.js APIs or assumptions into browser runtime code.
 
-Use JavaScript by default for new code. 
+Use JavaScript (ESNEXT) by default for new code. 
 Preserve TypeScript when the supplied project or source is already TypeScript,
 but do not introduce TypeScript, declaration files, or JSDoc types unless requested.
 
