@@ -15,7 +15,7 @@ Project tooling (ESLint, Prettier, EditorConfig) is the source of truth for mech
 
 ## General Principles
 - Use English only for code, identifiers, comments, and documentation; conversational explanations may follow the configured locale.
-- Prefer modern ECMAScript (ES2022+).
+- Prefer modern ECMAScript (ESNEXT).
 - Clarity > Performance > Cleverness.
 - Follow the Single Source of Truth principle: avoid duplicated logic, overlapping branches, and redundant checks.
 - Justified exceptions are allowed, but document them with a nearby comment.
