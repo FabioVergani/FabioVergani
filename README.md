@@ -2,7 +2,7 @@
     <header>
         <h1>
             <img width="94px" height="46px" src="./res/image/vector/devOpsAni.svg"><br>
-            Hi <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/FabioVergani/FabioVergani/refs/heads/main/doc/cv/resume.html">👋</a>, I'm Fabio
+            Hi <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/FabioVergani/FabioVergani/refs/heads/main/doc/cv/cv2025-26.pdf">👋</a>, I'm Fabio
         </h1>
         <h3>
             I like art,
