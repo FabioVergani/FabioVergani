@@ -1,21 +1,25 @@
 <div align="center">
     <header>
         <h1>
-            <img width="94px" height="46px" src="./res/image/devOpsAni.svg"><br>
-            Hi <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/FabioVergani/FabioVergani/refs/heads/main/resume.html">👋</a>, I'm Fabio
+            <img width="94px" height="46px" src="./res/image/vector/devOpsAni.svg"><br>
+            Hi <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/FabioVergani/FabioVergani/refs/heads/main/doc/cv/resume.html">👋</a>, I'm Fabio
         </h1>
         <h3>
-            I like art, design, typography, <a href="https://httparchive.org/reports/state-of-javascript" target="_blank">Javascript</a>, ...and <a href="https://www.linkedin.com/feed/update/urn:li:activity:7419129240341823489/" target="_blank">AI</a>.
+            I like art,
+			design,
+			typography, 
+			<a href="https://httparchive.org/reports/state-of-javascript" target="_blank">Javascript</a>,
+			...and <a href="https://www.linkedin.com/feed/update/urn:li:activity:7419129240341823489/" target="_blank">AI</a>.
         </h3>
     </header>
   <p>
-	  <a href="https://developer.mozilla.org/en-US/search?q="><img width="90" alt="MDN" src="./res/image/JavaScript.svg"></a>
-	  <a href="https://raw.githubusercontent.com/FabioVergani/FabioVergani/refs/heads/main/ai/system/JavaScriptEngineering.md"><img width="52" alt="" src="./res/image/AIcode.svg"></a>
+	  <a href="https://developer.mozilla.org/en-US/search?q="><img width="90" alt="MDN" src="./res/image/vector/Javascript.svg"></a>
+	  <a href="https://raw.githubusercontent.com/FabioVergani/FabioVergani/refs/heads/main/ai/"><img width="68" alt="" src="./res/image/vector/AIcode.svg"></a>
   </p>
     <table>
 		<tr>
 			<td colspan="3">
-				<a href="https://raw.githubusercontent.com/FabioVergani/FabioVergani/e6a40f4d822616189fd41f94070dc35c79e0fb6b/hardTruths.md">Code never lies;</a>
+				<a href="https://raw.githubusercontent.com/FabioVergani/FabioVergani/refs/heads/main/doc/notes/hardTruths.md">Code never lies;</a>
 				comments sometimes do.
 			</td>
 		</tr> 
@@ -69,7 +73,7 @@
                     </p>
                     <p>
                         <a href="./npm.md">
-                            <img width="50px" src="./res/image/npm.svg">
+                            <img width="50px" src="./res/image/vector/npm.svg">
                         </a>
                     </p>
                     <p>
@@ -83,7 +87,7 @@
 				</b>&ensp;
         		<b>
 					<mark>
-						<a href="./frontend.md">
+						<a href="./doc/notes/frontend.md">
 							#frontend
 						</a>
 					</mark>
@@ -255,6 +259,6 @@ terser<sub>
 ![](./image.svg)
 
     <a href="https://www.linkedin.com/in/fvergani/">
-        <img width="72" alt="linkedIn" src="./res/image/linkedIn.svg">
+        <img width="72" alt="linkedIn" src="./res/image/vector/linkedIn.svg">
     </a>
 -->
