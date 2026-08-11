@@ -14,7 +14,7 @@
     </header>
   <p>
 	  <a href="https://developer.mozilla.org/en-US/search?q="><img width="90" alt="MDN" src="./res/image/vector/Javascript.svg"></a>
-	  <a href="https://github.com/FabioVergani/AI/tree/main/Prompts" target="_blank"><img width="70" alt="" src="./res/image/vector/AIprompt.svg"></a>
+	  <a href="https://github.com/FabioVergani/AI/tree/main/Prompts" target="_blank"><img width="70" alt="" src="./res/image/vector/MDprompt.svg"></a>
   </p>
     <table>
 		<tr>
